@@ -1,0 +1,28 @@
+﻿---
+ID: "9a61dcf6-423b-47d8-a802-b61b866e9cca"
+Parent: "89189d6c-0093-4fbd-b578-cebd450d223c"
+Template: "e12cb9cc-0207-4fe6-bebc-9ea8004c5507"
+Path: "/sitecore/content/case-study/$projectname/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{124BB262-69CD-4E6A-953D-DEF801D38FD9}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: $projectname
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "322bc177-b4bb-46c9-920f-37ff61ee705c"
+    - ID: "f970e500-c371-4467-9c9b-19b44faa3cad"
+      Hint: Title
+      Value: $projectname

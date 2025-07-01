@@ -1,0 +1,13 @@
+﻿---
+ID: "f754b443-6a2a-4ddc-bcc8-2046658017ea"
+Parent: "446ed95c-4780-459a-8832-c3da3776000b"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: "/sitecore/content/case-study/$projectname/Data/Promos"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "467a47da-0c5d-4d7d-a4a1-cc76e031fc9e"

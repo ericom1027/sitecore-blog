@@ -1,0 +1,13 @@
+﻿---
+ID: "cccb909b-bc94-4dec-8adc-927fb28226bd"
+Parent: "d6279aee-9a40-4277-92a2-3ce9bf6bd416"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/case-study/$projectname/System/9/A/6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24c03ec9-b0d7-48cb-8014-389ffc562198"

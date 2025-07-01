@@ -1,0 +1,23 @@
+﻿---
+ID: "f970e500-c371-4467-9c9b-19b44faa3cad"
+Parent: "c1969435-fd10-4aeb-9455-6792f3d803d3"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: "/sitecore/templates/Project/case-study/Page/Content/Title"
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "06dda2b9-3cf9-4972-86f1-fa7fea3f9bb2"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26d6ce1f-8344-45a0-97ad-cf6e0bca76c6"

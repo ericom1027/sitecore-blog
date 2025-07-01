@@ -1,0 +1,26 @@
+{
+    "namespace":  "case-study-content",
+    "$schema":  "../../.sitecore/schemas/ModuleFile.schema.json",
+    "items":  {
+                  "includes":  [
+                                   {
+                                       "name":  "content",
+                                       "path":  "/sitecore/content/case-study",
+                                       "rules":  [
+                                                     {
+                                                         "path":  "/$name",
+                                                         "scope":  "itemAndDescendants"
+                                                     },
+                                                     {
+                                                         "path":  "*",
+                                                         "scope":  "ignored"
+                                                     }
+                                                 ]
+                                   },
+                                   {
+                                       "name":  "media",
+                                       "path":  "/sitecore/media library/Project/case-study/$name"
+                                   }
+                               ]
+              }
+}

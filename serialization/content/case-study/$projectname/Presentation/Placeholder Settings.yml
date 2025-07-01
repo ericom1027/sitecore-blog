@@ -1,0 +1,18 @@
+﻿---
+ID: "60905d20-53c4-4a36-a5f9-ccebe468768b"
+Parent: "4ade4a72-b615-4cc2-b9ac-a78c5da63df2"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: "/sitecore/content/case-study/$projectname/Presentation/Placeholder Settings"
+BranchID: "464d8f5a-4cf5-449d-bbe8-9c2005af65e6"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C8F02ED4-0933-4D4D-B1C9-79A58E252BBF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f406d046-e84a-4a78-a436-6e8e59f85cd7"

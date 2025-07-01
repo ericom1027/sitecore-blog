@@ -1,0 +1,42 @@
+{
+    "$schema":  "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace":  "case-study",
+    "items":  {
+                  "includes":  [
+                                   {
+                                       "name":  "layouts",
+                                       "path":  "/sitecore/layout/Layouts/Project/case-study/$name"
+                                   },
+                                   {
+                                       "name":  "placeholders",
+                                       "path":  "/sitecore/layout/Placeholder Settings/Project/case-study/$name"
+                                   },
+                                   {
+                                       "name":  "renderings",
+                                       "path":  "/sitecore/layout/Renderings/Project/case-study/$name"
+                                   },
+                                   {
+                                       "name":  "templates",
+                                       "path":  "/sitecore/templates/Project",
+                                       "rules":  [
+                                                     {
+                                                         "path":  "/case-study-templates/$name",
+                                                         "scope":  "ItemAndDescendants"
+                                                     },
+                                                     {
+                                                         "path":  "/case-study-templates",
+                                                         "scope":  "singleItem"
+                                                     },
+                                                     {
+                                                         "path":  "/case-study",
+                                                         "scope":  "ItemAndDescendants"
+                                                     },
+                                                     {
+                                                         "path":  "*",
+                                                         "scope":  "ignored"
+                                                     }
+                                                 ]
+                                   }
+                               ]
+              }
+}

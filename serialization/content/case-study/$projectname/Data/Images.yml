@@ -1,0 +1,13 @@
+﻿---
+ID: "f6114bfe-43c2-4434-bb25-ea847e54774b"
+Parent: "446ed95c-4780-459a-8832-c3da3776000b"
+Template: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Path: "/sitecore/content/case-study/$projectname/Data/Images"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7bdd559c-e412-43bc-8209-46a89af340bb"

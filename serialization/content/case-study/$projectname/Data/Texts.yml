@@ -1,0 +1,13 @@
+﻿---
+ID: "b22191ff-4c6c-4501-8ac1-b22bf3ab0c75"
+Parent: "446ed95c-4780-459a-8832-c3da3776000b"
+Template: "b762d567-87f5-493c-bb48-0c455d834457"
+Path: "/sitecore/content/case-study/$projectname/Data/Texts"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e697213-fffc-4839-ac19-72b0a18f79e4"

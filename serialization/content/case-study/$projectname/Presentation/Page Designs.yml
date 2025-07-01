@@ -1,0 +1,18 @@
+﻿---
+ID: "02bcd5a4-05ad-44ac-8696-a7f18d5b5cd6"
+Parent: "4ade4a72-b615-4cc2-b9ac-a78c5da63df2"
+Template: "43aad034-4a50-4b55-92c3-6d0157ce15e7"
+Path: "/sitecore/content/case-study/$projectname/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "603c542b-ed1c-48cc-8a12-61cf0d44eacf"

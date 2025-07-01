@@ -1,0 +1,13 @@
+﻿---
+ID: "0444e461-c1f4-4e6d-9ba0-3b0d173926cb"
+Parent: "60905d20-53c4-4a36-a5f9-ccebe468768b"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: "/sitecore/content/case-study/$projectname/Presentation/Placeholder Settings/Partial Design"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32bc719e-1906-4936-bce3-424b01e72f98"

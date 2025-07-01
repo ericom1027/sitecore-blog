@@ -57,6 +57,17 @@ Write-Host "Importing SitecoreDockerTools..." -ForegroundColor Green
 Import-Module SitecoreDockerTools -RequiredVersion $dockerToolsVersion
 Write-SitecoreDockerWelcome
 
+
+# Call updateModule.ps1
+Write-Host "Updating modules..." -ForegroundColor Green
+$updateScriptPath = "$PSScriptRoot\updateModule.ps1"
+if (Test-Path $updateScriptPath) {
+    & $updateScriptPath
+} else {
+    Write-Warning "Update script not found at: $updateScriptPath"
+}
+
+
 ##################################
 # Configure TLS/HTTPS certificates
 ##################################
@@ -107,11 +118,11 @@ Add-HostsEntry "www.sxastarter.localhost"
 Set-EnvFileVariable "JSS_DEPLOYMENT_SECRET_xmcloudpreview" -Value $xmCloudBuild.renderingHosts.xmcloudpreview.jssDeploymentSecret
 
 ################################
-# Generate Sitecore Api Key
+# Generate Sitecore Api Key - Not using it for a fix key
 ################################
 
-$sitecoreApiKey = (New-Guid).Guid
-Set-EnvFileVariable "SITECORE_API_KEY_xmcloudpreview" -Value $sitecoreApiKey
+#$sitecoreApiKey = (New-Guid).Guid
+#Set-EnvFileVariable "SITECORE_API_KEY_xmcloudpreview" -Value $sitecoreApiKey
 
 ################################
 # Generate JSS_EDITING_SECRET
@@ -160,6 +171,8 @@ if ($InitEnv) {
 }
 
 Write-Host "Done!" -ForegroundColor Green
+
+
 
 Push-Location docker\traefik\certs
 try

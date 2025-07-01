@@ -1,0 +1,13 @@
+﻿---
+ID: "4d8c0896-61c7-4a9b-8a05-5d89a29fb6ea"
+Parent: "aa062bc8-5541-4d9c-a482-014916de1987"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Project/case-study/$projectname/Sitemaps"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0390ccf-7825-401d-b6d4-f382cec18068"
