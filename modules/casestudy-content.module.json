@@ -1,6 +1,9 @@
 {
     "namespace":  "case-study-content",
     "$schema":  "../../.sitecore/schemas/ModuleFile.schema.json",
+    "references": [
+        "case-study"
+    ],
     "items":  {
                   "includes":  [
                                    {
