@@ -22,7 +22,17 @@
                                    },
                                    {
                                        "name":  "media",
-                                       "path":  "/sitecore/media library/Project/case-study/$name"
+                                       "path":  "/sitecore/media library/Project/case-study",
+                                        "rules":  [
+                                                     {
+                                                         "path":  "/$name",
+                                                         "scope":  "itemAndDescendants"
+                                                     },
+                                                     {
+                                                         "path":  "*",
+                                                         "scope":  "ignored"
+                                                     }
+                                                 ]
                                    }
                                ]
               }
