@@ -1,6 +1,6 @@
 ﻿---
-ID: "63e2c2f1-b968-4409-9cba-c3a976811ca8"
-Parent: "dede00a3-ed5d-453e-a38f-936643c68925"
+ID: "e989f671-d9ac-4c6e-9c75-3d216a5613d7"
+Parent: "8a3a6f34-c697-4872-b25b-ad9917b552ba"
 Template: "8357f958-9aaa-46db-8898-36448a96356f"
 Path: "/sitecore/content/case-study/$projectname/Settings/Site Grouping"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dc574dbc-f4f9-475b-ac4c-354b9cb9b3dd"
+      Value: "280421d4-01d2-407f-b28d-b1a43f6c2fff"

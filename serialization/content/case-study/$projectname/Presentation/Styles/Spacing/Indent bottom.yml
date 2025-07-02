@@ -1,6 +1,6 @@
 ﻿---
-ID: "24d164c6-633e-41bc-b145-95b6d032dce7"
-Parent: "868f12ab-c055-41de-8b50-d8e2a3da6b23"
+ID: "ea6fe58f-a32e-42be-8435-07b049de0232"
+Parent: "c96275c9-49fe-4f6f-8489-3245203092f2"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Spacing/Indent bottom"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 3400
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "b207185b-8300-4e4d-94ff-5c50c9ae1148"
+  Value: "e88a2f79-6386-4a7b-b858-16e689629325"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{739CD93C-1026-4525-BBFC-2CD069BC2CDF}"
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59652343-b050-4fbf-8798-e0ca2161e427"
+      Value: "0cb180fa-2b54-45ac-92f2-0a3895fcd8b9"

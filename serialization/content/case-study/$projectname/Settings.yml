@@ -1,13 +1,13 @@
 ﻿---
-ID: "dede00a3-ed5d-453e-a38f-936643c68925"
-Parent: "89189d6c-0093-4fbd-b578-cebd450d223c"
+ID: "8a3a6f34-c697-4872-b25b-ad9917b552ba"
+Parent: "de6b6ba4-dac7-4790-bbad-67526b1fb5fc"
 Template: "be2e2906-30ff-43d9-9847-117788ba240d"
 Path: "/sitecore/content/case-study/$projectname/Settings"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "0129da3f-8c86-4591-ae32-6ec923413923"
   Hint: DictionaryDomain
-  Value: "{181F7E4C-F58A-4EBE-B1FF-2D77942FE871}"
+  Value: "{B85345AD-02BF-42A5-9F10-DC920FB1FC76}"
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{C2DC4690-AF44-48C7-BB21-90D1AD246732}"
@@ -22,7 +22,7 @@ SharedFields:
   Value: $projectname
 - ID: "5764d2d4-724d-4313-a81b-9246c911faff"
   Hint: AppDatasourcesPath
-  Value: "{446ED95C-4780-459A-8832-C3DA3776000B}"
+  Value: "{6370A109-D2CA-40BB-9E58-A2796F37BB56}"
 - ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
   Hint: PlaceholdersPath
   Value: "{C9BA4C79-456F-414B-A404-594E4613434A}"
@@ -34,7 +34,7 @@ SharedFields:
   Value: http
 - ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
   Hint: DictionaryPath
-  Value: "{181F7E4C-F58A-4EBE-B1FF-2D77942FE871}"
+  Value: "{B85345AD-02BF-42A5-9F10-DC920FB1FC76}"
 - ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
   Hint: EditingTheme
   Value: "{3BCAB9EF-1E4F-4C23-B452-783BB82AA686}"
@@ -49,7 +49,7 @@ SharedFields:
   Value: "{AF584191-45C9-4201-8740-5409F4CF8BDD}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "4c9d6c79-6b53-4348-9458-4a9073f51668"
+  Value: "9c0f263f-770d-4412-9cee-55691e30aa56"
 - ID: "e8881464-38af-4655-be4a-ee10586578a2"
   Hint: Templates
   Value: "{31EAA825-8A3C-4E27-9295-72F9C18F435C}"
@@ -66,4 +66,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a6542711-30cd-4a3b-970b-47b30a34acb0"
+      Value: "b9235914-43b5-40b0-a2a3-9c607d06e61d"

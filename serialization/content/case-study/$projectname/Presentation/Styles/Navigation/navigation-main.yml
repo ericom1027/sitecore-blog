@@ -1,6 +1,6 @@
 ﻿---
-ID: "6ffd2e3e-26c4-474a-8930-be560d3850e0"
-Parent: "8b71049a-94b3-4280-8a78-485e72f0046b"
+ID: "2f9279a8-dba8-4bbe-a42a-0190c0785cdf"
+Parent: "2e728e19-9437-43cd-8728-7fb8d75fe347"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Navigation/navigation-main"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ac560d2b-8492-4efa-8830-9de245bb05ac"
+  Value: "aef0fa95-aa7b-4246-aaf8-a5e8381f2230"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{5446315D-7C9E-42AD-88EA-A3929786EAC6}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "5b004d15-ca1a-401f-ba4b-8f0d599fa43a"
+    Value: "0d0d4143-fac8-45d4-9cab-c0ca70f1fed8"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: "Main navigation - Drop down vertical"
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b0e66e0e-fcf2-40bf-a875-7a5aba53f7dc"
+      Value: "3eefce5c-c334-4b0c-b242-def02322927e"

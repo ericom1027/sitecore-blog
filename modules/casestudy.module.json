@@ -5,15 +5,48 @@
                   "includes":  [
                                    {
                                        "name":  "layouts",
-                                       "path":  "/sitecore/layout/Layouts/Project/case-study/$name"
+                                       "path":  "/sitecore/layout/Layouts/Project/case-study",
+                                       "rules": [
+                                            { 
+                                                "path": "/$name",
+                                                "scope": "ItemAndDescendants"
+                                            },
+                                            {
+                                                "path": "*",
+                                                "scope": "ignored"
+                                            }
+                                           
+                                       ]
                                    },
                                    {
                                        "name":  "placeholders",
-                                       "path":  "/sitecore/layout/Placeholder Settings/Project/case-study/$name"
+                                       "path":  "/sitecore/layout/Placeholder Settings/Project/case-study",
+                                       "rules": [
+                                            { 
+                                                "path": "/$name",
+                                                "scope": "ItemAndDescendants"
+                                            },
+                                            {
+                                                "path": "*",
+                                                "scope": "ignored"
+                                            }
+                                           
+                                       ]
                                    },
                                    {
                                        "name":  "renderings",
-                                       "path":  "/sitecore/layout/Renderings/Project/case-study/$name"
+                                       "path":  "/sitecore/layout/Renderings/Project/case-study",
+                                       "rules": [
+                                            { 
+                                                "path": "/$name",
+                                                "scope": "ItemAndDescendants"
+                                            },
+                                            {
+                                                "path": "*",
+                                                "scope": "ignored"
+                                            }
+                                           
+                                       ]
                                    },
                                    {
                                        "name":  "templates",

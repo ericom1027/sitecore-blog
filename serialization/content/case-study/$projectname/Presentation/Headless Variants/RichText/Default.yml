@@ -1,6 +1,6 @@
 ﻿---
-ID: "b088b157-7836-4efb-81f0-27dbd4f28e07"
-Parent: "5d4a059c-2437-4990-9269-80bd77a60837"
+ID: "3bea3cf5-5d92-48cc-ae88-8fdc43b4f6a3"
+Parent: "27a2a0e4-2101-4f7c-b71e-20e46efbc098"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Headless Variants/RichText/Default"
 BranchID: "6d954d26-5ba2-4e17-9260-28fdc6b057d0"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f3355c4a-7a4c-480e-b60a-03f857f6d5c2"
+      Value: "3ef1886f-adac-48f9-928e-4b63c9050e5e"

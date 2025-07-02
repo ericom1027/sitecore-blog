@@ -1,6 +1,6 @@
 ﻿---
-ID: "ffe03127-2fdd-49db-97d6-bd10daf3454f"
-Parent: "8b71049a-94b3-4280-8a78-485e72f0046b"
+ID: "a0c115e7-c52e-4f5e-9619-f77bf1799af5"
+Parent: "2e728e19-9437-43cd-8728-7fb8d75fe347"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Navigation/navigation-main-horizontal"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ea5a62cc-fa58-41d8-ae86-83e42d17de83"
+  Value: "f8223fd7-734d-4595-a02d-de2f86ad1aa8"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{B7021591-E6C6-4747-99BD-A1AD21668679}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "90e28feb-642a-4cc7-bf12-ea8bb04b0ef9"
+    Value: "020df70d-3ea5-41c6-bf2a-63aa03a58f08"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: "Main navigation - Drop down horizontal"
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "64a59504-caf7-4629-994c-acf9de8fa664"
+      Value: "76387a8c-c7c2-4217-b973-5843ecf979e0"

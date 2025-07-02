@@ -1,6 +1,6 @@
 ﻿---
-ID: "05b9589f-2505-4a06-a9d4-7a6af5160516"
-Parent: "4ade4a72-b615-4cc2-b9ac-a78c5da63df2"
+ID: "5b28ecea-efcc-435a-ad31-f76b72667718"
+Parent: "13439ade-e2c8-4bb7-917e-6b9f3ca1cce9"
 Template: "a10b375c-aa4b-47c2-b113-e4557f2a445c"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Partial Designs"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c74720c0-9e64-457d-8b60-8292acd328b4"
+      Value: "9a262294-4c43-447f-9eed-784321440b6d"

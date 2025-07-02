@@ -1,6 +1,6 @@
 ﻿---
-ID: "9358361e-2ea7-47ff-aea2-35803db31718"
-Parent: "54fff31a-5386-4243-af40-f7a1b87ebd92"
+ID: "d3047ea1-8d76-4bde-b21e-a7d16f383783"
+Parent: "26b65391-3201-4226-977e-e6459e152b4c"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Background layout/fix-background"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 50
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "297e4c1c-f3fa-4721-9f8e-0019e30b4a20"
+  Value: "3194545c-eae2-4b05-88dc-b414271e076f"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{92C537B4-6293-4450-BD38-B00AA1F80620}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "1e4b4041-f8af-4cb9-bd9f-47211ba3f1bd"
+    Value: "f3ce1e64-c79f-40e1-b752-00854c41fc42"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Fix background
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e71104d1-ddcd-41eb-8d2c-25201727844a"
+      Value: "28116ebc-7fc4-4f42-9348-28717768feb0"

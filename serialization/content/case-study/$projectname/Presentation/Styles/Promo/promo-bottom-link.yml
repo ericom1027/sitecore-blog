@@ -1,6 +1,6 @@
 ﻿---
-ID: "ecbd8b34-3288-4b52-be49-69733448a723"
-Parent: "9421f5db-513a-4f9b-8696-07e863d859b7"
+ID: "315653f5-78e8-405d-b664-075484c54362"
+Parent: "b9cecca2-d36e-471e-b1b9-99a5bb324188"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Promo/promo-bottom-link"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 500
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "58ec36e7-a5c5-4c13-b6bf-e28532a870b1"
+  Value: "fcd2d238-5028-4784-89ac-e387d1f7f424"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{D9117058-A003-4ADC-AEF5-758CBEE34A60}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "8ca49b83-e15b-4595-98ec-4a22a4d226d0"
+    Value: "86f49213-e00b-411e-97d7-ab1b6212baea"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Attach link to bottom
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f16a8d2-f469-4b7b-92d5-95a5750b5fc7"
+      Value: "fd32b83d-4b79-4ebe-bdec-d9962220a22d"

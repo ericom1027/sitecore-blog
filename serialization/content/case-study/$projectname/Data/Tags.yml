@@ -1,6 +1,6 @@
 ﻿---
-ID: "e33707d7-9183-4a3e-bef9-ae9b03849ac8"
-Parent: "446ed95c-4780-459a-8832-c3da3776000b"
+ID: "a7b88817-dca4-446c-9713-6eb2ac197a76"
+Parent: "6370a109-d2ca-40bb-9e58-a2796f37bb56"
 Template: "25a6b824-672f-4c15-9b98-0b231c80f81c"
 Path: "/sitecore/content/case-study/$projectname/Data/Tags"
 Languages:
@@ -10,4 +10,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1f65ca01-c7fb-4341-9fda-738114b781c6"
+      Value: "054ea75f-b909-4a2b-aba9-43f57cfb169f"

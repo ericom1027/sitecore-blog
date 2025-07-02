@@ -1,6 +1,6 @@
 ﻿---
-ID: "6ea3b6cc-1bc0-4853-8da1-50364bdc7dfc"
-Parent: "524e87cf-4c50-4fca-b6af-10ed7cbc62f7"
+ID: "9b5773f1-b8a3-405d-b8a4-dec549894aad"
+Parent: "2eca21c4-77ca-4a22-b800-3d61c5d9e566"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Headless Variants/LinkList"
 BranchID: "70519928-c595-4b2b-bb35-75022feecc4c"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Office/32x32/text_align_left.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "0f3a0954-e817-4684-9edb-3d99985538f0"
+  Value: "5b99ae0a-9f6a-4ba6-ad00-e10c6317d15c"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{8A535969-7E57-4951-86D3-5E12DBFF31D3}"
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "155a9d97-7d07-4b5f-903f-07b7bcedce81"
+      Value: "07865c21-3832-435b-a354-08a251210e18"

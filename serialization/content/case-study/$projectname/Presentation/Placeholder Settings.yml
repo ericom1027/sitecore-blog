@@ -1,6 +1,6 @@
 ﻿---
-ID: "60905d20-53c4-4a36-a5f9-ccebe468768b"
-Parent: "4ade4a72-b615-4cc2-b9ac-a78c5da63df2"
+ID: "c910d075-4c53-4373-8cee-2939daa251a5"
+Parent: "13439ade-e2c8-4bb7-917e-6b9f3ca1cce9"
 Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Placeholder Settings"
 BranchID: "464d8f5a-4cf5-449d-bbe8-9c2005af65e6"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f406d046-e84a-4a78-a436-6e8e59f85cd7"
+      Value: "e6fde4c4-9299-489e-ab06-b945f0b9937e"

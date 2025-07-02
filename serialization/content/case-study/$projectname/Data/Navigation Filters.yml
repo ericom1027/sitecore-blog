@@ -1,6 +1,6 @@
 ﻿---
-ID: "3b541a5b-8674-493a-9241-37761a6bef55"
-Parent: "446ed95c-4780-459a-8832-c3da3776000b"
+ID: "36e93eb3-e1dc-4fbe-8eea-8c3c0246e191"
+Parent: "6370a109-d2ca-40bb-9e58-a2796f37bb56"
 Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
 Path: "/sitecore/content/case-study/$projectname/Data/Navigation Filters"
 Languages:
@@ -10,4 +10,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "093bb9da-a61c-4c80-8e11-958c1f7f394c"
+      Value: "a5f7182b-e7ba-4284-b2c2-4327c5178cb7"

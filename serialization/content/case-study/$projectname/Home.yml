@@ -1,6 +1,6 @@
 ﻿---
-ID: "9a61dcf6-423b-47d8-a802-b61b866e9cca"
-Parent: "89189d6c-0093-4fbd-b578-cebd450d223c"
+ID: "5dbef602-5f45-4e3f-adef-f611e46b1097"
+Parent: "de6b6ba4-dac7-4790-bbad-67526b1fb5fc"
 Template: "e12cb9cc-0207-4fe6-bebc-9ea8004c5507"
 Path: "/sitecore/content/case-study/$projectname/Home"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
@@ -8,7 +8,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{124BB262-69CD-4E6A-953D-DEF801D38FD9}" />
+    <image mediaid="{5BAD3F30-C3ED-40B9-9DB0-B17502BBC335}" />
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
@@ -22,7 +22,7 @@ Languages:
       Value: $projectname
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "322bc177-b4bb-46c9-920f-37ff61ee705c"
+      Value: "efe2a1b3-7ae8-42c2-be0e-8c019fc0aaea"
     - ID: "f970e500-c371-4467-9c9b-19b44faa3cad"
       Hint: Title
       Value: $projectname

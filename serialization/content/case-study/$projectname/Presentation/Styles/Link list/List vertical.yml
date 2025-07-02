@@ -1,6 +1,6 @@
 ﻿---
-ID: "7d4256db-6228-4e80-8f24-4e4c8b3a88f9"
-Parent: "684df41b-0c5b-4787-87de-db9b997da7bd"
+ID: "5b71ccea-6eea-4136-afaf-038e73bbb900"
+Parent: "6771a738-9839-400d-ab7e-d12d49550376"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Link list/List vertical"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 4200
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "bdb73ddc-d914-43bb-a269-5f810f046b01"
+  Value: "c4ccf44a-ecfc-4b97-a5bb-b63628a2a68f"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{53768840-1B6C-49CF-84A8-83D26C4A638C}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "0f425aba-84d0-4926-9e7d-043b59b2ad94"
+    Value: "37eb5a51-5fac-46d7-86ad-fe97cbd59231"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: List vertical
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cd33f595-97e7-43aa-bc70-e7f32ea94fd8"
+      Value: "57106970-ccfc-474c-a6c7-e8368e123ff0"

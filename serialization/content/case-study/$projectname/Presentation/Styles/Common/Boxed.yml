@@ -1,6 +1,6 @@
 ﻿---
-ID: "ac4517be-c912-4df8-a7ec-7d7604851bb2"
-Parent: "c027baae-a2f0-4f1a-a1f6-8c38a0deef3f"
+ID: "11764cbe-0508-4588-bb95-34e76de14e72"
+Parent: "dd4f89ee-7411-41e3-aa54-cd77482a10e7"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Common/Boxed"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -22,7 +22,7 @@ SharedFields:
   Value: 3800
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "37aba2bb-9655-45fe-ae89-dd6455e0cef7"
+  Value: "feec4c43-cf9d-470c-b12e-8c9dfd3f8729"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{EA2921DF-2799-477D-8661-F2BBEFBF3B3D}"
@@ -33,4 +33,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0f3de49d-c40f-43eb-a0b2-fb15db37060a"
+      Value: "913e33cf-d4d8-4fdb-b4a8-19ad4f65b0be"

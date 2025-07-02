@@ -1,6 +1,6 @@
 ﻿---
-ID: "b3d38930-eea1-4e5c-80d9-488f1ce18604"
-Parent: "aaa186af-d52e-4d21-bfb6-012899af930f"
+ID: "e95008be-9629-45ac-a94a-ee40d334097b"
+Parent: "a2b9b796-899b-48bb-80e3-e77332f1260a"
 Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Available Renderings/Media"
 BranchID: "80a19fb5-570d-4b16-94cf-6d294ddc78ec"
@@ -10,7 +10,7 @@ SharedFields:
   Value: "{AB2EDBA0-3960-4F12-B765-579DC231894A}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "38e319a0-99af-4646-8c24-b2356775b338"
+  Value: "91b84fd6-af28-4757-aabb-18675ca063fa"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{A2C2E7AD-2885-48FB-BE23-052C4C5F5CC4}"
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94e6004e-aa55-44ea-ad34-6daeee995647"
+      Value: "3bd35c43-7587-4a62-8041-766bcf151870"

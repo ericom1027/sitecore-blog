@@ -1,6 +1,6 @@
 ﻿---
-ID: "f78657b8-36ab-4f0c-80bd-b84f50efc0da"
-Parent: "dede00a3-ed5d-453e-a38f-936643c68925"
+ID: "e644b634-e542-4875-9bf9-4f26eda6fa68"
+Parent: "8a3a6f34-c697-4872-b25b-ad9917b552ba"
 Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
 Path: "/sitecore/content/case-study/$projectname/Settings/Sitemap"
 BranchID: "adb13058-5c08-4827-8f30-a269342a2e9e"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1387a0d0-da64-46c9-9c6c-1c9b5b7ca38f"
+      Value: "4e7e8351-b451-4b03-a3f8-25b9891a3a33"

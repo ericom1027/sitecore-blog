@@ -1,6 +1,6 @@
 ﻿---
-ID: "d8a06a7b-e8a0-477a-aba4-f3090cc664f2"
-Parent: "d57bdfac-149e-43b1-bdc1-218118305452"
+ID: "7ebb8bdc-ab90-4278-8bab-ffe06a02fc97"
+Parent: "540c13d0-d3a9-411a-b386-e58d04797f5c"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Rich text/Custom bullet points"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -18,7 +18,7 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cc51e129-df62-455f-9559-770a5c910453"
+  Value: "be3c4557-f31d-4ed4-a24f-b9e25185937f"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{8D5B5E13-6CF6-42C6-8F87-C0E0CD6C1351}"
@@ -29,4 +29,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "57e50d92-72c5-42ac-bf87-61b145de9913"
+      Value: "abd085fc-ab9b-4031-a921-1cf403e7651b"

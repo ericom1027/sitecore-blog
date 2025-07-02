@@ -1,6 +1,6 @@
 ﻿---
-ID: "02bcd5a4-05ad-44ac-8696-a7f18d5b5cd6"
-Parent: "4ade4a72-b615-4cc2-b9ac-a78c5da63df2"
+ID: "d8cecd10-7341-4c4b-9cb2-a9bb646848a9"
+Parent: "13439ade-e2c8-4bb7-917e-6b9f3ca1cce9"
 Template: "43aad034-4a50-4b55-92c3-6d0157ce15e7"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Page Designs"
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "603c542b-ed1c-48cc-8a12-61cf0d44eacf"
+      Value: "4849e548-5663-43d5-9f81-31193235a133"

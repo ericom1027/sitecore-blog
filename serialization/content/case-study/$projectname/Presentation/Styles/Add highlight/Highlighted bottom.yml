@@ -1,6 +1,6 @@
 ﻿---
-ID: "7dc5f4e1-49ac-445f-9fe5-7ad00415f84a"
-Parent: "6992be5d-d515-4355-8c6e-b081ae92d597"
+ID: "82832254-ae5e-459c-9ecc-21885d8f4eeb"
+Parent: "bcc83475-8701-41bf-997c-ee4f9775e136"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Add highlight/Highlighted bottom"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -26,7 +26,7 @@ SharedFields:
   Value: 4162
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e31a1358-72d4-48f0-8275-59d4b7a121d7"
+  Value: "dd03171b-e800-44da-a707-e9c828ca730a"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{A41EE12F-948E-46B3-B6F3-1FFE33C50CF0}"
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "36700267-e2f4-413b-a233-c5540f0f303a"
+      Value: "2e641e4f-2e24-49eb-b7a4-02d5da62fbc6"

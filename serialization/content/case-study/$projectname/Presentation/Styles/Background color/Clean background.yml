@@ -1,6 +1,6 @@
 ﻿---
-ID: "a3899731-aadd-47e7-a4b1-42c155886d7f"
-Parent: "20bafa52-d424-4949-9ad2-c9801c014ff5"
+ID: "b1251afe-86a2-4d3f-aa8c-89a00657ace7"
+Parent: "87aa3a24-c056-4b9c-aa02-415f7f6f69c4"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Background color/Clean background"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -16,7 +16,7 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fef735bb-57a9-44aa-bc2f-266e4b5f19f8"
+  Value: "8b09bfd7-4343-4183-b08b-4c8953085fcd"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{215ED257-9533-412C-88C7-90B094C0B756}"
@@ -27,4 +27,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "31dd5937-1b01-491e-9b26-4f3e593d4a6d"
+      Value: "bb985635-c515-4a26-a5ef-209009ae0419"

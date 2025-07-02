@@ -1,6 +1,6 @@
 ﻿---
-ID: "06eabacc-1315-4e26-a6e0-a3ed464ffc54"
-Parent: "524e87cf-4c50-4fca-b6af-10ed7cbc62f7"
+ID: "d4a0feaf-558a-4998-803c-bcd3d3c76840"
+Parent: "2eca21c4-77ca-4a22-b800-3d61c5d9e566"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Headless Variants/Promo"
 BranchID: "37229eac-e94c-4507-b543-6cb1f31294e4"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Office/32x32/window_dialog.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "1ab5bbae-e9bb-41cc-b21a-74fc89be297d"
+  Value: "9ac122b2-9253-43ab-81d3-072078743bee"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{63F9B1F7-5D78-4053-8480-70874BAF0DC4}"
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "30d46b5b-89bc-4b08-9824-dab5bf4f4afe"
+      Value: "95212c7b-8e41-4576-91fc-246fe99349e1"

@@ -1,5 +1,5 @@
 ﻿---
-ID: "89189d6c-0093-4fbd-b578-cebd450d223c"
+ID: "de6b6ba4-dac7-4790-bbad-67526b1fb5fc"
 Parent: "ea85a873-2382-4741-929b-706c2cfabc24"
 Template: "9c601572-e08d-463e-bacb-c7065def65fa"
 Path: "/sitecore/content/case-study/$projectname"
@@ -25,19 +25,16 @@ SharedFields:
     {1F35559F-2140-4774-8BC1-525BB722BAA2}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
-  Value: "{5654690C-BAA7-43C5-AD83-676B8E7EDFCE}"
+  Value: "{C7712118-AC33-4A0C-8EF6-907E0F8D276B}"
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
-  Value: "{AA062BC8-5541-4D9C-A482-014916DE1987}"
+  Value: "{EECAC30E-4180-494B-BC92-3A2AECBE294B}"
 - ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
   Hint: Name
   Value: $projectname
-- ID: "89cecf4f-e545-44f2-813d-272c08661d14"
-  Hint: Description
-  Value: Test Project
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f74c1998-d986-4450-b56e-3e52ba137ec7"
+  Value: "d87e001e-6417-4421-8d97-03a7e1cee45f"
 - ID: "e2bf3c8d-a12e-45f4-98d6-a37f13bcf375"
   Hint: SiteTemplate
   Value: "{2867D289-8951-458A-AF19-CE93A67BB494}"
@@ -51,4 +48,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5fdeb747-97ce-47c2-bb98-7a79777d0789"
+      Value: "00b1c059-7611-4980-9af1-4af4cb22ee99"

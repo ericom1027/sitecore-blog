@@ -1,6 +1,6 @@
 ﻿---
-ID: "99041563-1a21-4107-a90f-6aa8bfed2843"
-Parent: "8b71049a-94b3-4280-8a78-485e72f0046b"
+ID: "84c730a8-df30-4c4f-8e06-e3e3f4b05019"
+Parent: "2e728e19-9437-43cd-8728-7fb8d75fe347"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Navigation/navigation-fat"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 600
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e156b641-b8ee-42d1-ab6e-c9bef8d466e3"
+  Value: "96cf0fc5-9aed-4d0d-830c-fd149bfcc8ea"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{928AA900-3932-4BF6-81FE-7D003209DD1B}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "5cf28e2e-d513-4610-a3b5-fecadfc463b8"
+    Value: "23a6bd35-903b-4aa1-9253-f6c5aa0fedaa"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Big/Fat navigation
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "97a6657a-d0bc-431d-b9cd-81bbbc97c4b3"
+      Value: "a3f31c4f-af59-408f-afff-c7e452acb29a"

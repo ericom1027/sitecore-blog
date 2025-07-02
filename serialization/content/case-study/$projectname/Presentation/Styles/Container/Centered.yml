@@ -1,6 +1,6 @@
 ﻿---
-ID: "db317292-381b-49fd-bb25-f98ad0d38044"
-Parent: "cd7790a8-f9c4-4383-b1e1-de898354c1e8"
+ID: "036f42f2-435f-4cc2-9da0-41e60fe5cbc2"
+Parent: "4297f6b9-26c7-47dd-b3ce-434ffa0074ea"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Container/Centered"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -13,7 +13,7 @@ SharedFields:
   Value: "{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5d3aa310-8f67-4520-9ca2-0b0a0490b999"
+  Value: "6f1d79b2-0055-4725-b456-c71bf9951e3e"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{17B9ED3A-88AF-4451-89A1-650C88C47547}"
@@ -24,4 +24,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "03f6c938-b67f-4b75-a8ca-0955df15087d"
+      Value: "2fa4b908-91f1-4a6d-af3a-a63cd13fbd71"

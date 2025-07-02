@@ -1,6 +1,6 @@
 ﻿---
-ID: "53caae19-7099-4c1a-ac04-b08b4e7d86da"
-Parent: "8b71049a-94b3-4280-8a78-485e72f0046b"
+ID: "578913af-32c4-44c4-967b-33a0f110b8ea"
+Parent: "2e728e19-9437-43cd-8728-7fb8d75fe347"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Navigation/navigation-mobile"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ec4b5d78-c197-4553-b131-f4d14646d2b4"
+  Value: "644188b1-a46f-4c76-804d-ed3d83eb880b"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{E872631A-3554-40A7-ADDE-B44D769E8830}"
@@ -28,7 +28,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "2bf9eeaf-3708-493c-ba96-b01ae6448332"
+    Value: "3864763c-d717-4dee-9027-c83f43532ea9"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Mobile navigation
@@ -37,4 +37,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "63b8853b-dc64-4351-81e8-d2f71625613b"
+      Value: "f1786383-ec2c-40b5-822d-417b02c5e38b"

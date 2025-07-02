@@ -1,6 +1,6 @@
 ﻿---
-ID: "5ce67749-000a-47b3-9338-b9b3e45bee0e"
-Parent: "191a7b58-c4c4-4efc-aa03-99dcc0b2906c"
+ID: "59200fba-3965-4af3-8164-b7267200ed13"
+Parent: "8dffe080-b77d-453b-8d66-031994157b32"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Content alignment/Align content left"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -19,7 +19,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a3325e05-c68b-4de3-a780-e9a54fbab8ad"
+  Value: "78760761-d1b4-4e58-9c84-37d517259413"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{DE4FAB98-2147-4A2D-BABA-880160CA9912}"
@@ -30,4 +30,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80a49a57-3c20-4432-8a75-2d01a2380d04"
+      Value: "b177db80-20ca-40ba-acdb-01867f673a30"

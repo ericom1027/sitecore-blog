@@ -1,5 +1,5 @@
 ﻿---
-ID: "aa062bc8-5541-4d9c-a482-014916de1987"
+ID: "eecac30e-4180-494b-bc92-3a2aecbe294b"
 Parent: "50ae1063-3faf-4134-a08e-d89344f31ab2"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: "/sitecore/media library/Project/case-study/$projectname"
@@ -10,4 +10,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0c7f8db6-f87a-40b3-99c3-01203d26f149"
+      Value: "411689c5-19e6-43a6-b6ce-c3a8d80ff384"

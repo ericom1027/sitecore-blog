@@ -1,6 +1,6 @@
 ﻿---
-ID: "356a25e9-76d1-4886-add9-c89fe7a88212"
-Parent: "524e87cf-4c50-4fca-b6af-10ed7cbc62f7"
+ID: "407b9f3f-16e7-488b-9c7e-f44d6177ad0a"
+Parent: "2eca21c4-77ca-4a22-b800-3d61c5d9e566"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Headless Variants/PageContent"
 BranchID: "5abe3762-5a9c-4710-9730-bb302e90fd13"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Office/32x32/scroll.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "977888c6-4c37-47ac-a2ca-2e5ff3985300"
+  Value: "d0eda928-35cf-4ef8-a444-f429e50727e3"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{01E7C00F-89F4-4D2F-AEDF-F79DB531842E}"
@@ -19,7 +19,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "0b16ba19-00d8-4548-9021-2b1675bb1277"
+    Value: "b83255c2-46d5-417e-8cb6-b4437a9c558c"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Page Content
@@ -28,4 +28,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7f76c974-cf22-43e4-ab00-4e31a4e0d4f2"
+      Value: "4da5d53d-4655-4ab1-beab-545a9b3716e7"

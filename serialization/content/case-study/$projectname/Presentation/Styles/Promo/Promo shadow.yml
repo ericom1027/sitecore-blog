@@ -1,6 +1,6 @@
 ﻿---
-ID: "99a9951b-f160-487b-85ce-4d62232e33de"
-Parent: "9421f5db-513a-4f9b-8696-07e863d859b7"
+ID: "f460277e-089c-488c-82c6-ad1137afd41d"
+Parent: "b9cecca2-d36e-471e-b1b9-99a5bb324188"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Promo/Promo shadow"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -16,7 +16,7 @@ SharedFields:
   Value: 1
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "ab73c05a-6809-4db7-b5d5-30ea3f4873c1"
+  Value: "4eaac05f-dae9-49b2-a216-c8cbfb7ca913"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{206239A9-BAEB-4E5A-914B-D63E47FDF58C}"
@@ -27,4 +27,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "17b82bfb-648d-4470-928e-c85bd2fc3738"
+      Value: "c1828e69-a511-4d60-b502-689d966fb375"

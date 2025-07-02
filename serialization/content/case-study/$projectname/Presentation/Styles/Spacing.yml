@@ -1,6 +1,6 @@
 ﻿---
-ID: "868f12ab-c055-41de-8b50-d8e2a3da6b23"
-Parent: "6813dfbb-cb8f-4705-861d-6ce5e504e1f4"
+ID: "c96275c9-49fe-4f6f-8489-3245203092f2"
+Parent: "d9d1dfc0-5015-47fe-8764-e75b8814109d"
 Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Styles/Spacing"
 BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
@@ -13,7 +13,7 @@ SharedFields:
   Value: 100
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "be9a3378-6bdc-4427-9137-9bdfd9fbd842"
+  Value: "b45226f2-d628-4274-a8e1-1f1da8d8cb6b"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{C96262B8-A0E8-4546-A17E-825F07B2B653}"
@@ -24,4 +24,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "333d71da-95fc-4330-917b-b2d8b263b8ba"
+      Value: "a90722ba-3b50-4edf-8a71-16dd5ed1616c"

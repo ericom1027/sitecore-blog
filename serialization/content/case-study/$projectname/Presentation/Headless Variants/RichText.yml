@@ -1,6 +1,6 @@
 ﻿---
-ID: "5d4a059c-2437-4990-9269-80bd77a60837"
-Parent: "524e87cf-4c50-4fca-b6af-10ed7cbc62f7"
+ID: "27a2a0e4-2101-4f7c-b71e-20e46efbc098"
+Parent: "2eca21c4-77ca-4a22-b800-3d61c5d9e566"
 Template: "49c111d0-6867-4798-a724-1f103166e6e9"
 Path: "/sitecore/content/case-study/$projectname/Presentation/Headless Variants/RichText"
 BranchID: "6d954d26-5ba2-4e17-9260-28fdc6b057d0"
@@ -10,7 +10,7 @@ SharedFields:
   Value: Office/32x32/text.png
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "e335a2ef-8361-43c6-bfca-cd475b864939"
+  Value: "98b4b8ab-88de-4ba8-bff2-75a867a2b4b4"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{85A9998F-01FB-4FB9-8448-EF0B0BCFBB8B}"
@@ -19,7 +19,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "46454f1c-5cf7-4454-8243-6340d81d6036"
+    Value: "45263d7d-b4da-45c1-b42d-a56fde747f7c"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Rich Text
@@ -28,4 +28,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4a8bb8b-4449-42a2-ac8f-249d65533c4e"
+      Value: "912ac696-47c0-4e5d-aa09-a07b3e25b89a"

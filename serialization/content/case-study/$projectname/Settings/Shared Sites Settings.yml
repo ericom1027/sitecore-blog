@@ -1,6 +1,6 @@
 ﻿---
-ID: "2ea041ae-509e-435c-a3ff-aa105dda79b8"
-Parent: "dede00a3-ed5d-453e-a38f-936643c68925"
+ID: "2e8cfbfe-cccb-4996-b990-0797b4af0efd"
+Parent: "8a3a6f34-c697-4872-b25b-ad9917b552ba"
 Template: "c14bf746-030f-4e59-8594-395f6d299e61"
 Path: "/sitecore/content/case-study/$projectname/Settings/Shared Sites Settings"
 BranchID: "55330bb7-6095-414a-b29b-0042ce8d9331"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "346af752-10a6-4823-b692-9b4299353aac"
+      Value: "eb5337d7-f1ec-4dd0-9fb5-3cbbe8191cb3"
