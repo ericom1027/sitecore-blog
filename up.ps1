@@ -87,7 +87,7 @@ if (!(Test-Path .\src\items\content)) {
      dotnet sitecore connect --ref xmcloud --cm https://$xmcloudlive  --allow-write true -n default
      # Pull the latest content items from Sitecore XM Cloud
      Write-Host "Pulling content items from Sitecore XM Cloud..." -ForegroundColor Green
-     dotnet sitecore ser pull
+     dotnet sitecore ser pull --exclude RenderingHost
      
 }
 
