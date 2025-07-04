@@ -84,7 +84,7 @@ if ($LASTEXITCODE -ne 0) {
 if (!(Test-Path .\src\items\content)) {
     #Connect to Sitecore XM Cloud
      dotnet sitecore cloud login --client-id $clientid  --client-secret $clientSecret --client-credentials true
-     dotnet sitecore connect --ref xmcloud --cm http://$xmcloudlive  --allow-write true -n default
+     dotnet sitecore connect --ref xmcloud --cm https://$xmcloudlive  --allow-write true -n default
      # Pull the latest content items from Sitecore XM Cloud
      Write-Host "Pulling content items from Sitecore XM Cloud..." -ForegroundColor Green
      dotnet sitecore ser pull
