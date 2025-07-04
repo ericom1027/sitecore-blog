@@ -1,14 +1,22 @@
 {
     "renderingHosts": {
         "xmcloudpreview": {
+            "name": "sxastarter",
             "path": "./src/sxastarter",
-            "nodeVersion": "16.15.1",
+            "nodeVersion": "22.16.0",
             "jssDeploymentSecret":"110F1C44A496B45478640DD36F80C18C9",
             "enabled": true,
             "type": "sxa",
             "lintCommand": "lint",
             "startCommand": "start:production"
         }
+    },
+    "configuration": {
+      "xmCloud": {
+        "cllientId": "HYWRlgPaeVzrSqUT3tbbENBTWGRwKtxx",
+        "clientSecret": "m3nC5OlSVlIgwrXAvI3B1uwH9OVLQuZnZ3RHcURMosD7O-DpjVpFDXSHwFjMxGo7",
+        "host": "xmc-avanadec219-xmcloudplayfa64-actpsitecorae88.sitecorecloud.io"
+      }
     },
     "postActions": {
         "actions":{

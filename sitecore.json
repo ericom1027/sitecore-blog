@@ -15,7 +15,7 @@
     "defaultModuleRelativeSerializationPath": "items",
     "removeOrphansForRoles": true,
     "continueOnItemFailure": false,
-     "excludedFields": [
+    "excludedFields": [
       {
         "fieldId": "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a",
         "description": "__Updated by"

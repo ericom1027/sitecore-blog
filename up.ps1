@@ -25,6 +25,9 @@ if ($ClientCredentialsLogin -eq "true") {
 #set nuget version
 $xmCloudBuild = Get-Content "xmcloud.build.json" | ConvertFrom-Json
 $nodeVersion = $xmCloudBuild.renderingHosts.xmcloudpreview.nodeVersion
+$clientid = $xmCloudBuild.configuration.xmCloud.cllientId
+$clientsecret = $xmCloudBuild.configuration.xmCloud.clientSecret
+$xmcloudlive = $xmCloudBuild.configuration.xmCloud.host
 if (![string]::IsNullOrWhitespace($nodeVersion)) {
     Set-EnvFileVariable "NODEJS_VERSION" -Value $xmCloudBuild.renderingHosts.xmcloudpreview.nodeVersion
 }
@@ -77,6 +80,17 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 #####################################
+# If serialized items are not existing, pull them from Sitecore XM Cloud
+if (!(Test-Path .\src\items\content)) {
+    #Connect to Sitecore XM Cloud
+     dotnet sitecore cloud login --client-id $clientid  --client-secret $clientSecret --client-credentials true
+     dotnet sitecore connect --ref xmcloud --cm http://$xmcloudlive  --allow-write true -n default
+     # Pull the latest content items from Sitecore XM Cloud
+     Write-Host "Pulling content items from Sitecore XM Cloud..." -ForegroundColor Green
+     dotnet sitecore ser pull
+     
+}
+
 
 Write-Host "Logging into Sitecore..." -ForegroundColor Green
 if ($ClientCredentialsLogin -eq "true") {
@@ -102,6 +116,9 @@ if ($LASTEXITCODE -ne 0) {
 # Rebuild indexes
 Write-Host "Rebuilding indexes ..." -ForegroundColor Green
 dotnet sitecore index rebuild
+
+
+
 
 Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
 dotnet sitecore ser push

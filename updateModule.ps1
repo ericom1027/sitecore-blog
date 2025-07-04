@@ -1,7 +1,11 @@
 # Write name in module.json replacing $name placeholder based on COMPOSE_PROJECT_NAME in the .env file
-$envContent = Get-Content .env -Encoding UTF8
-$composeProjectName = $envContent | Where-Object { $_ -imatch "^COMPOSE_PROJECT_NAME=.+" }
-$composeProjectName = $composeProjectName.Split("=")[1]
+$buildJsonPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "xmcloud.build.json"
+if (Test-Path -Path $buildJsonPath) {
+    $buildJson = Get-Content -Path $buildJsonPath -Raw | ConvertFrom-Json
+    $composeProjectName = $buildJson.renderingHosts.xmcloudpreview.name
+} else {
+    $composeProjectName = $null
+}
 
 if ($composeProjectName) {
   # Replace the name and appName with placeholder $name in package.json file to match the project name
@@ -40,28 +44,6 @@ if ($composeProjectName) {
         Write-Warning "Modules path '$modulesPath' does not exist. Skipping copy."
     }
 
-  # Copy the contents of serializarion folder to the src/items folder
-    $serializationPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "serialization"
-    $srcItemsPath = Join-Path -Path $srcPath -ChildPath "items"
-    $contentPath = Join-Path -Path $srcItemsPath -ChildPath "content"
-
-     if (-not (Test-Path -Path $contentPath)) {
-        if (Test-Path -Path $serializationPath) {
-                # Ensure the src/items folder exists
-                if (-not (Test-Path -Path $srcItemsPath)) {
-                    New-Item -Path $srcItemsPath -ItemType Directory -Force | Out-Null
-                }
-                
-                # Copy all files and folders from serialization to src/items recursively
-                Copy-Item -Path "$serializationPath\*" -Destination $srcItemsPath -Recurse -Force
-                Write-Host "Copied all content from $serializationPath to $srcItemsPath." -ForegroundColor Green
-            } else {
-                Write-Warning "Serialization path '$serializationPath' does not exist. Skipping copy."
-            }
-    }
-
-    
-
     # Process all *.module.json files to replace $name placeholders
 
     $moduleJsonFiles = Get-ChildItem -Path $srcPath -Recurse -Filter "*.module.json"
@@ -92,56 +74,7 @@ if ($composeProjectName) {
         $moduleJson | ConvertTo-Json -Depth 10  | Set-Content -Path $moduleJsonFile.FullName -Force
         Write-Host "Updated $($moduleJsonFile.Name) with '$composeProjectName'." -ForegroundColor Green
     }
-  
-
-    # Process all yaml files to replace $projectname placeholders
-    $srcItemsPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "src/items"
-    $ymlFiles =  Get-ChildItem -Path $srcPath -Recurse -Filter "*.yml"
-    foreach ($ymlFile in $ymlFiles) {
-        $content = Get-Content -Path $ymlFile.FullName -Raw
-        if ($content -match '\$projectname') {
-            $updatedContent = $content -replace '\$projectname', $composeProjectName
-            Set-Content -Path $ymlFile.FullName -Value $updatedContent -Force
-            Write-Host "Updated $($ymlFile.Name) with '$composeProjectName'." -ForegroundColor Green
-        } else {
-            Write-Host "No placeholder found in $($ymlFile.Name). Skipping." -ForegroundColor Yellow
-        }
-    }
-
-    # Rename the yml files to match the project name
-    foreach ($ymlFile in $ymlFiles) {
-        $newFileName = $ymlFile.Name -replace '\$projectname', $composeProjectName
-        if ($newFileName -ne $ymlFile.Name) {
-            $newFilePath = Join-Path -Path $ymlFile.DirectoryName -ChildPath $newFileName
-            Rename-Item -Path $ymlFile.FullName -NewName $newFilePath -Force
-            Write-Host "Renamed $($ymlFile.Name) to $newFileName." -ForegroundColor Green
-        } else {
-            Write-Host "No renaming needed for $($ymlFile.Name)." -ForegroundColor Yellow
-        }
-    }
-
-    # Rename the folders that named $projectname to match the project name
-    $folders = Get-ChildItem -Path $srcPath -Directory -Recurse | Where-Object { $_.Name -match '\$projectname' }
-    # Sort folders by depth (deepest first) to avoid parent folder rename issues
-    $folders = $folders | ForEach-Object {
-        $depth = ($_.FullName -split '\\').Count
-        $_ | Add-Member -MemberType NoteProperty -Name 'Depth' -Value $depth -PassThru
-    } | Sort-Object -Property Depth -Descending
-
-    foreach ($folder in $folders) {
-        $newFolderName = $folder.Name -replace '\$projectname', $composeProjectName
-        if ($newFolderName -ne $folder.Name) {
-            $newFolderPath = Join-Path -Path $folder.Parent.FullName -ChildPath $newFolderName
-            if (Test-Path -Path $folder.FullName) {
-                Rename-Item -Path $folder.FullName -NewName $newFolderPath -Force
-                Write-Host "Renamed folder $($folder.Name) to $newFolderName." -ForegroundColor Green
-            } else {
-                Write-Host "Skipping rename of $($folder.FullName) - path no longer exists." -ForegroundColor Yellow
-            }
-        } else {
-            Write-Host "No renaming needed for folder $($folder.Name)." -ForegroundColor Yellow
-        }
-    }     
+        
 } else {
     Write-Warning "COMPOSE_PROJECT_NAME not set in .env file. Skipping module.json update."
 }

@@ -1,9 +1,7 @@
 # XM Cloud Starter Kit (Next JS)
 
 ## DO THIS FIRST!!
-1. Open .env at the root folder (not sxastarter) and update the "COMPOSE_PROJECT_NAME" values to your project name (use lowercase with hyphens or underscores, no spaces).
-
-2. Replace $name in package.json with your project name
+1. Find the `xmcloud.build.json` file in the root folder. Open it and look for the `xmcloudpreview` section. Change the `"name"` values there to your project name (don't use the default sxastarter), using only lowercase letters, hyphens, or underscores (no spaces).
 
 ## QUICK START
 
