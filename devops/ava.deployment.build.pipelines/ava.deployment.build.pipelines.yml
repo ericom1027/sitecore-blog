@@ -2,6 +2,7 @@ trigger:
   branches:
     include:
       - develop
+      - $(branchName)
 
 pool:
   vmImage: "windows-latest"

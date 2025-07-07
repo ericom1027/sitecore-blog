@@ -24,12 +24,12 @@ steps:
       workingDir: "$(jssAppPath)"
       customCommand: "run bootstrap"
 
-  - task: Npm@1
-    displayName: "Build storybooks"
-    inputs:
-      command: custom
-      workingDir: "$(jssAppPath)"
-      customCommand: "run --silent build-storybook"
+  # - task: Npm@1
+  #   displayName: "Build storybooks"
+  #   inputs:
+  #     command: custom
+  #     workingDir: "$(jssAppPath)"
+  #     customCommand: "run --silent build-storybook"
 
   - task: PowerShell@2
     displayName: "Create .env file"
