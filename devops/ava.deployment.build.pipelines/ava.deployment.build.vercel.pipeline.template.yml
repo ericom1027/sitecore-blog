@@ -1,0 +1,73 @@
+steps:
+  - checkout: self
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "18.x"
+    displayName: "Install Node.js"
+
+    # Step to install the Vercel CLI globally
+  - script: |
+      npm install -g vercel
+      vercel --version
+    displayName: 'Install Vercel CLI'
+
+  - script: |
+      vercel pull --yes --environment=$ENVIRONMENT --token=$VERCEL_TOKEN --debug
+    displayName: 'Pull Vercel Project'
+    timeoutInMinutes: 5
+    workingDirectory: $(jssAppPath)
+    env:
+      VERCEL_TOKEN: $(VERCEL_TOKEN)
+      ENVIRONMENT: $(ENVIRONMENT)
+
+  - script: |
+      ls -la ./.vercel
+      cat ./.vercel/project.json
+    displayName: 'Check Vercel Configuration'
+
+  # Step to verify and set up the Vercel configuration if not already set
+  # Check if the `.vercel` folder exists and contains the correct `project.json` file
+  - script: |
+      echo "Checking Vercel configuration..."
+      if [ ! -f ./.vercel/project.json ]; then
+        echo "Vercel project configuration not found. Creating new link..."
+        vercel link --token $VERCEL_TOKEN --yes
+      else
+        echo "Vercel project configuration found."
+      fi
+    displayName: 'Check and setup Vercel configuration'
+    env:
+      VERCEL_TOKEN: $(VERCEL_TOKEN)
+  # Step to deploy the project to Vercel
+  - script: |
+      echo "Deploying to Vercel..."
+      DEPLOY_URL=$(vercel deploy --token $VERCEL_TOKEN --target=$ENVIRONMENT --prod --yes)
+      echo "Deployment URL: $DEPLOY_URL"
+      echo "##vso[task.setvariable variable=DEPLOY_URL;]$DEPLOY_URL"
+    displayName: 'Deploy to Vercel'
+    env:
+      VERCEL_TOKEN: $(VERCEL_TOKEN)
+      VERCEL_ORG_ID: $(VERCEL_ORG_ID)
+      VERCEL_PROJECT_ID: $(VERCEL_PROJECT_ID)
+      ENVIRONMENT: $(ENVIRONMENT)     
+
+  # Step to verify the deployment status on Vercel
+  - script: |
+      echo "Verifying deployment..."
+      echo "Deployment URL: $(DEPLOY_URL)"
+      DEPLOY_ID=$(basename $(DEPLOY_URL))
+      echo "Deployment ID: $DEPLOY_ID"
+      RESPONSE=$(curl -s -H "Authorization: Bearer $VERCEL_TOKEN" \
+        "https://api.vercel.com/v6/deployments/$DEPLOY_ID")
+      echo "API Response: $RESPONSE"
+      DEPLOY_STATUS=$(echo $RESPONSE | python -c "import sys, json; print(json.load(sys.stdin)['readyState'])")
+      echo "Deployment status: $DEPLOY_STATUS"
+      if [ "$DEPLOY_STATUS" != "READY" ]; then
+        echo "Deployment failed or is still in progress."
+        exit 1
+      fi
+    displayName: 'Verify Vercel Deployment'
+    env:
+      VERCEL_TOKEN: $(VERCEL_TOKEN)
+      DEPLOY_URL: $(DEPLOY_URL)
