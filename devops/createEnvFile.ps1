@@ -11,7 +11,7 @@ param (
     [string]$sitecoreSearchApiKey = "",
     [string]$sitecoreSearchPath = "",
     [string]$locales = "",
-    [string]$SitecoreAPIHost = "",
+    [string]$SitecoreAPIHost = ""
 )
 
 # Check if the template file exists
