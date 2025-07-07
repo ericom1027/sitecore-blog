@@ -1,0 +1,33 @@
+trigger:
+  branches:
+    exclude:
+      - "*"
+
+pr:
+  branches:
+    include:
+      - develop
+  paths:
+    include:
+      - src/$(projectName)/*
+      - src/authoring/items/*
+
+pool:
+  vmImage: "windows-latest"
+
+variables:
+  - group: avanade-intranet-pr-build
+
+stages:
+  - stage: Build
+    displayName: "Build validation"
+    jobs:
+      - job: FrontEndBuild
+        displayName: "avanade Internal Site Components Build"
+        steps:
+          - template: ava.fe.validation.pipeline.template.yml
+
+      - job: ValidateSitecoreItems
+        displayName: "avanade Internal Site Items Validation"
+        steps:
+          - template: ava.sitecore.items.validation.pipeline.template.yml

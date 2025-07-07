@@ -1,0 +1,16 @@
+trigger:
+  branches:
+    include:
+      - develop
+      - $(branchName)
+
+pool:
+  vmImage: "windows-latest"
+
+stages:
+  - template: ava.reusable.pipeline.template.yml
+    parameters:
+      environmentName: "Dev Environment"
+      buildVariableGroup: "avanade-intranet-pr-build"
+      xmcloudVariableGroup: "avanade-intranet-xmcloud-dev-environment"
+      vercelVariableGroup: "avanade-intranet-vercel-dev-environment"

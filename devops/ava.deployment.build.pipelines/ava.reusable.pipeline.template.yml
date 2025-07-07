@@ -1,0 +1,51 @@
+parameters:
+  buildVariableGroup: ""
+  environmentName: ""
+  xmcloudVariableGroup: ""
+  vercelVariableGroup: ""
+  codeBuildStageName: "CodeBuild"
+  xmCloudStageName: "XMCloudDeploy"
+  vercelStageName: "VercelDeployment"
+  environment: ""
+
+stages:
+  - stage: ${{ parameters.codeBuildStageName }}
+    displayName: "Build validation For ${{ parameters.environmentName }}"
+    jobs:
+      - job: FrontEndBuild
+        displayName: "Building NEXTJS Components for ${{ parameters.environmentName }}"
+        variables:
+          - group: ${{ parameters.buildVariableGroup }}
+        steps:
+          - template: ../../devops/ava.pr.build.pipelines/ava.fe.validation.pipeline.template.yml
+      - job: ValidateSitecoreItems
+        displayName: "avanade Internal Site Items Validation"
+        steps:
+          - template: ../../devops/ava.pr.build.pipelines/ava.sitecore.items.validation.pipeline.template.yml
+          
+  - stage: ${{ parameters.xmCloudStageName }}
+    displayName: "Deploying to ${{ parameters.environmentName }} of XMCloud"
+    dependsOn: ${{ parameters.codeBuildStageName }}    
+    jobs:
+      - job: DeployToXMCloudEnvironment        
+        displayName: "Deploy to XM Cloud Environment"
+        variables:
+          - group: ${{ parameters.xmcloudVariableGroup }}
+          - group: ${{ parameters.buildVariableGroup }}
+        steps:
+          - template: ava.deployment.build.xmcloud.pipeline.template.yml  
+    
+
+  - stage: ${{ parameters.vercelStageName }}
+    displayName: "Deploying to ${{ parameters.environmentName }} of Vercel"
+    pool:
+      vmImage: "ubuntu-latest"
+    dependsOn: ${{ parameters.xmCloudStageName }} 
+    jobs:
+      - job: DeployToVercelEnvironment        
+        displayName: "Deploy to Vercel Environment"
+        variables:
+          - group: ${{ parameters.vercelVariableGroup }}
+          - group: ${{ parameters.buildVariableGroup }}
+        steps:
+          - template: ava.deployment.build.vercel.pipeline.template.yml

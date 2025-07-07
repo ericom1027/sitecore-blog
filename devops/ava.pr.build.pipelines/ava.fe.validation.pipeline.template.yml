@@ -1,0 +1,47 @@
+steps:
+  - task: NodeTool@0
+    displayName: "Install node $(nodeVersion)"
+    inputs:
+      versionSpec: "$(nodeVersion)"
+
+  - task: Npm@1
+    displayName: "Restore npm packages"
+    inputs:
+      command: "install"
+      workingDir: "$(jssAppPath)"
+
+  - task: Npm@1
+    displayName: "Validate eslint"
+    inputs:
+      command: custom
+      workingDir: "$(jssAppPath)"
+      customCommand: "run lint"
+
+  - task: Npm@1
+    displayName: "Bootstrap jss app"
+    inputs:
+      command: custom
+      workingDir: "$(jssAppPath)"
+      customCommand: "run bootstrap"
+
+  # - task: Npm@1
+  #   displayName: "Build storybooks"
+  #   inputs:
+  #     command: custom
+  #     workingDir: "$(jssAppPath)"
+  #     customCommand: "run --silent build-storybook"
+
+  - task: PowerShell@2
+    displayName: "Create .env file"
+    inputs:
+      targetType: "filePath"
+      filePath: "./devops/CreateEnvFile.ps1"
+      arguments: '-EnvFilePath "$(jssAppPath).env" -TemplateFilePath "$(jssAppPath)env.template" -SiteName "$(SiteName)" -JssEditingSecret "$(JssEditingSecret)" -SitecoreEdgeContextId "$(SitecoreEdgeContextId)" -GraphQlEndpoint "$(GraphQlEndpoint)" -DefaultLanguage "$(DefaultLanguage)" -SitecoreSearchEnv "$(SitecoreSearchEnv)" -SitecoreSearchCustomerKey "$(SitecoreSearchCustomerKey)" -SitecoreSearchApiKey "$(SitecoreSearchApiKey)" -SitecoreSearchPath "$(SitecoreSearchPath)" -Locales "$(Locales)" -SitecoreAPIHost "$(SitecoreAPIHost)"'
+      failOnStderr: true
+
+  - task: Npm@1
+    displayName: "Build jss (ssr) app"
+    inputs:
+      command: custom
+      workingDir: "$(jssAppPath)"
+      customCommand: "run build"

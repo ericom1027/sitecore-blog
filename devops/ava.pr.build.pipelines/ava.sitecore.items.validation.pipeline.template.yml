@@ -1,0 +1,17 @@
+steps:
+  - task: PowerShell@2
+    displayName: "Validating Sitecore items"
+    inputs:
+      targetType: "inline"
+      script: |
+        Write-Host "`nRestoring dotnet tools`n"
+        dotnet tool restore
+
+        Write-Host "`nValidating Sitecore Items`n"
+        dotnet sitecore ser validate
+
+        Write-Host "`nValidating Sitecore Package`n"
+        dotnet sitecore ser package create --output validate --verbose
+
+        Write-Host "`nCleaning up`n"
+        Remove-Item -Path ".\validate.itempackage"

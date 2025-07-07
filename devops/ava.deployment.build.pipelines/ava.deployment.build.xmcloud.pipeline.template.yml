@@ -1,0 +1,35 @@
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: "sdk"
+      version: "6.0.x"
+      vsVersion: "2019"
+
+  - task: PowerShell@2
+    displayName: "Login and Deploy"
+    inputs:
+      workingDirectory: $(jssAppPath)
+      targetType: "inline"
+      script: |
+        dotnet tool restore
+        dotnet sitecore cloud login --client-credentials --client-id $(XM_CLOUD_CLIENT_ID) --client-secret $(XM_CLOUD_CLIENT_SECRET) --allow-write
+        echo 'Logged in - deploying to xm cloud'
+        dotnet sitecore cloud deployment create `
+          --environment-id $(XM_CLOUD_ENVIRONMENT_ID) `
+          --upload `
+          --trace | Tee-Object -Variable deploymentOutput
+
+        $matchedLines = ($deploymentOutput | Where-Object { $_ -match "Deployment Id\s*:\s*'(?<id>\S+)'"})
+
+        if ($matchedLines.Count -lt 1) {
+          exit 1
+        }
+
+        $status = dotnet sitecore cloud deployment watch `
+          --deployment-id $Matches.id `
+          --json | ConvertFrom-Json
+
+        if ($status.StatusByTask.Calculated -eq 'Failed') {
+          Write-Error "Deployment status is 'failed'"
+          exit 1
+        }
