@@ -1,0 +1,28 @@
+trigger: none
+pr: none
+
+pool:
+  vmImage: "windows-latest"
+
+stages:
+  - template: ava.reusable.pipeline.template.yml
+    parameters:
+      environmentName: "UAT Environment"
+      buildVariableGroup: "avanade-intranet-release-build"
+      xmcloudVariableGroup: "avanade-intranet-xmcloud-uat-environment"
+      vercelVariableGroup: "avanade-intranet-vercel-uat-environment"
+      codeBuildStageName: "CodeBuildUAT"
+      xmCloudStageName: "XMCloudDeployUAT"
+      vercelStageName: "VercelDeploymentUAT"
+      environment: "avanade-intranet-UAT-environment"
+
+  - template: ava.reusable.pipeline.template.yml
+    parameters:
+      environmentName: "PROD Environment"
+      buildVariableGroup: "avanade-intranet-prod-release-build"
+      xmcloudVariableGroup: "avanade-intranet-xmcloud-prod-environment"
+      vercelVariableGroup: "avanade-intranet-vercel-prod-environment"
+      codeBuildStageName: "CodeBuildPROD"
+      xmCloudStageName: "XMCloudDeployPROD"
+      vercelStageName: "VercelDeploymentPROD"
+      environment: "avanade-intranet-PROD-environment"
