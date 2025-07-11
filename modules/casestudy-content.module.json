@@ -8,31 +8,13 @@
                   "includes":  [
                                    {
                                        "name":  "content",
-                                       "path":  "/sitecore/content/case-study",
-                                       "rules":  [
-                                                     {
-                                                         "path":  "/$name",
-                                                         "scope":  "itemAndDescendants"
-                                                     },
-                                                     {
-                                                         "path":  "*",
-                                                         "scope":  "ignored"
-                                                     }
-                                                 ]
+                                       "path":  "/sitecore/content/casestudy"
+                    
                                    },
                                    {
                                        "name":  "media",
-                                       "path":  "/sitecore/media library/Project/case-study",
-                                        "rules":  [
-                                                     {
-                                                         "path":  "/$name",
-                                                         "scope":  "itemAndDescendants"
-                                                     },
-                                                     {
-                                                         "path":  "*",
-                                                         "scope":  "ignored"
-                                                     }
-                                                 ]
+                                       "path":  "/sitecore/media library/Project/casestudy"
+                                      
                                    }
                                ]
               }

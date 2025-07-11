@@ -44,36 +44,6 @@ if ($composeProjectName) {
         Write-Warning "Modules path '$modulesPath' does not exist. Skipping copy."
     }
 
-    # Process all *.module.json files to replace $name placeholders
-
-    $moduleJsonFiles = Get-ChildItem -Path $srcPath -Recurse -Filter "*.module.json"
-
-    foreach ($moduleJsonFile in $moduleJsonFiles) {
-        $moduleJson = Get-Content -Path $moduleJsonFile.FullName -Raw | ConvertFrom-Json
-        if (-not $moduleJson) {
-            Write-Warning "Could not parse JSON from $($moduleJsonFile.FullName). Skipping."
-            continue
-        }
-        # Replace $name in path strings within includes
-        if ($moduleJson.items -and $moduleJson.items.includes) {
-            foreach ($include in $moduleJson.items.includes) {
-                if ($include.path) {
-                    $include.path = $include.path.Replace('$name', $composeProjectName)
-                }
-                if ($include.rules) {
-                    foreach ($rule in $include.rules) {
-                        if ($rule.path) {
-                            $rule.path = $rule.path.Replace('$name', $composeProjectName)
-                        }
-                    }
-                }
-            }
-        }
-        
-        # Save the updated JSON
-        $moduleJson | ConvertTo-Json -Depth 10  | Set-Content -Path $moduleJsonFile.FullName -Force
-        Write-Host "Updated $($moduleJsonFile.Name) with '$composeProjectName'." -ForegroundColor Green
-    }
         
 } else {
     Write-Warning "COMPOSE_PROJECT_NAME not set in .env file. Skipping module.json update."

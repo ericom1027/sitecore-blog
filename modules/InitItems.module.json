@@ -10,7 +10,7 @@
                                    },
                                    {
                                        "name":  "api-key",
-                                       "path":  "/sitecore/system/Settings/Services/API Keys/case-study",
+                                       "path":  "/sitecore/system/Settings/Services/API Keys/casestudy",
                                        "scope":  "singleItem"
                                    }
                                ]

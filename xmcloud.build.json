@@ -11,13 +11,6 @@
             "startCommand": "start:production"
         }
     },
-    "configuration": {
-      "xmCloud": {
-        "cllientId": "HYWRlgPaeVzrSqUT3tbbENBTWGRwKtxx",
-        "clientSecret": "m3nC5OlSVlIgwrXAvI3B1uwH9OVLQuZnZ3RHcURMosD7O-DpjVpFDXSHwFjMxGo7",
-        "host": "xmc-avanadec219-xmcloudplayfa64-actpsitecorae88.sitecorecloud.io"
-      }
-    },
     "postActions": {
         "actions":{
           "warmUpCm": {
