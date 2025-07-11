@@ -13,6 +13,7 @@ steps:
       script: |
         dotnet tool restore
         dotnet sitecore cloud login --client-credentials --client-id $(XM_CLOUD_CLIENT_ID) --client-secret $(XM_CLOUD_CLIENT_SECRET) --allow-write
+        dotnet sitecore connect --cm $(XM_CLOUD_API_HOST)  --allow-write true -n default
         echo 'Logged in - deploying to xm cloud'
         dotnet sitecore cloud deployment create `
           --environment-id $(XM_CLOUD_ENVIRONMENT_ID) `
