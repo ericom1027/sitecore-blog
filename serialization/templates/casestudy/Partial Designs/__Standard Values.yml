@@ -1,0 +1,22 @@
+﻿---
+ID: "89b14d2d-4442-44fe-868f-168eff4a941c"
+Parent: "74040c0e-5484-4ed7-91f6-e873c7f04061"
+Template: "74040c0e-5484-4ed7-91f6-e873c7f04061"
+Path: /sitecore/templates/Project/casestudy/Partial Designs/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {73A4B20A-41A5-4A58-8B42-6F72B4D6E447}
+    {FD2059FD-6043-4DFE-8C04-E2437CE87634}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c1cd9dc4-390d-4b4c-b716-b20c53349374"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b8981fe-692f-4064-a02e-31aa72cf308c"

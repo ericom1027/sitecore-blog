@@ -1,0 +1,13 @@
+﻿---
+ID: "2efbe7f5-c589-4821-8957-a3eb64fd7db7"
+Parent: "2d8a0ae2-31b4-474b-9b98-627cdfba38ee"
+Template: "2d8a0ae2-31b4-474b-9b98-627cdfba38ee"
+Path: /sitecore/templates/Project/casestudy/JSS Settings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b900309d-4dee-4cb5-93da-d2da19d39a6f"

@@ -1,0 +1,26 @@
+﻿---
+ID: "73a4b20a-41a5-4a58-8b42-6f72b4d6e447"
+Parent: "fc3ef809-14f0-4bb3-aad9-72c4df8337a7"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/casestudy/Partial Design Folder
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_selection.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{25F01F50-5534-44F9-B1BA-BCBB60B2D13D}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "17d12940-3e08-4aed-8c6f-3cd1de9f93ba"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{41244616-F308-46C4-AE86-E3BDE42ABB18}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f113573-8a02-4ff3-8a8a-2a92f6b2d0d2"

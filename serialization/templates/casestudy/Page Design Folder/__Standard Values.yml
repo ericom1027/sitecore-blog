@@ -1,0 +1,22 @@
+﻿---
+ID: "5b49fdb9-77dd-46b4-b6f6-2c650cab46ff"
+Parent: "43691701-78ac-41d5-aa3b-3191b3ba5a9c"
+Template: "43691701-78ac-41d5-aa3b-3191b3ba5a9c"
+Path: /sitecore/templates/Project/casestudy/Page Design Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {43691701-78AC-41D5-AA3B-3191B3BA5A9C}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "56f1cdf2-ecf0-4e87-9b2b-0e901190340f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc441299-7fc8-4964-845a-a9e6f5fa2242"

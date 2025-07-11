@@ -1,0 +1,32 @@
+﻿---
+ID: "2d8a0ae2-31b4-474b-9b98-627cdfba38ee"
+Parent: "fc3ef809-14f0-4bb3-aad9-72c4df8337a7"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/casestudy/JSS Settings
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/gearwheels.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {EC848505-D30C-4BDC-A0AA-7CC9D320085E}
+    {6175F4C7-F87F-4F7F-928E-4C5CA5DFFAF4}
+    {CBC14160-BED0-4AA2-9387-4C13179205B9}
+    {A7228B46-610D-4A17-9F61-649F3A30AAAE}
+    {2AF2DC09-057F-48C2-A9F4-9779ADF83659}
+    {30869218-C3AD-40F9-BCFF-6837127ECD8F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "95575255-03f5-4e3e-b986-07237546da47"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{2EFBE7F5-C589-4821-8957-A3EB64FD7DB7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53ced353-5110-4227-9238-accf68ae6b6e"

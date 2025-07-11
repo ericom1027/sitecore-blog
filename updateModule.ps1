@@ -44,6 +44,27 @@ if ($composeProjectName) {
         Write-Warning "Modules path '$modulesPath' does not exist. Skipping copy."
     }
 
+    # Copy the contents of serializarion folder to the src/items folder
+    $serializationPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "serialization"
+    $srcItemsPath = Join-Path -Path $srcPath -ChildPath "items"
+    $contentPath = Join-Path -Path $srcItemsPath -ChildPath "content"
+
+     if (-not (Test-Path -Path $contentPath)) {
+        if (Test-Path -Path $serializationPath) {
+                # Ensure the src/items folder exists
+                if (-not (Test-Path -Path $srcItemsPath)) {
+                    New-Item -Path $srcItemsPath -ItemType Directory -Force | Out-Null
+                }
+                
+                # Copy all files and folders from serialization to src/items recursively
+                Copy-Item -Path "$serializationPath\*" -Destination $srcItemsPath -Recurse -Force
+                Write-Host "Copied all content from $serializationPath to $srcItemsPath." -ForegroundColor Green
+            } else {
+                Write-Warning "Serialization path '$serializationPath' does not exist. Skipping copy."
+            }
+    }
+
+
         
 } else {
     Write-Warning "COMPOSE_PROJECT_NAME not set in .env file. Skipping module.json update."
