@@ -8,12 +8,14 @@
                   "includes":  [
                                    {
                                        "name":  "content",
-                                       "path":  "/sitecore/content/casestudy"
+                                       "path":  "/sitecore/content/casestudy",
+                                       "allowedPushOperations": "CreateAndUpdate"
                     
                                    },
                                    {
                                        "name":  "media",
-                                       "path":  "/sitecore/media library/Project/casestudy"
+                                       "path":  "/sitecore/media library/Project/casestudy",
+                                        "allowedPushOperations": "CreateAndUpdate"
                                       
                                    }
                                ]
