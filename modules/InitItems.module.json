@@ -12,7 +12,7 @@
                                        "name":  "api-key",
                                        "path":  "/sitecore/system/Settings/Services/API Keys/casestudy",
                                        "scope":  "singleItem",
-                                    "allowedPushOperations": "createAndUpdate"
+                                        "allowedPushOperations": "createAndUpdate"
                                    }
                                ]
               }
