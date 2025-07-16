@@ -34,8 +34,5 @@ steps:
           Write-Error "Deployment status is 'failed'"
           exit 1
         }
-         if ($LASTEXITCODE -eq 0) {
-          Write-Host "`nDeployment successful, pushing Sitecore items`n"
-            dotnet sitecore ser push -e RenderingHost
-         }
+ 
 
