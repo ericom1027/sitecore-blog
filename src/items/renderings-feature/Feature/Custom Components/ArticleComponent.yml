@@ -1,0 +1,26 @@
+﻿---
+ID: "120cffe2-757d-4db9-8736-936daddfdc2b"
+Parent: "a63d3f27-80d6-47ac-9b3e-b8b6aea29381"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Custom Components/ArticleComponent
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: ArticleComponent
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/ArticleTemplates/ArticleData
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{16FC8179-86A7-4C9D-AA8B-7138BBF2BF8B}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:$site/*[@@name='Data']/*[@@name='ArticleComponentDataSources']|query:$sharedSites/*[@@name='Data']/*[@@name='ArticleComponentDataSources']"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80512a39-c99c-4492-a929-c5162f9c7ac3"

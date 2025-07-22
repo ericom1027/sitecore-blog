@@ -1,0 +1,13 @@
+﻿---
+ID: "6e43833e-aa13-4551-b952-e7444e9dc327"
+Parent: "0a188f5d-4b5d-48ab-83e1-949a3c745477"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Forms/Rendering Parameters/Form Rendering Parameters/Form
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0f2a18a-b8e1-4e07-840b-a986e317afbd"

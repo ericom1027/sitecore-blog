@@ -1,0 +1,13 @@
+﻿---
+ID: "4ebbf6ce-67f6-45f2-a129-0c6ce092241c"
+Parent: "09f7560e-16f8-4f94-b782-5cd1fdb44515"
+Template: "09f7560e-16f8-4f94-b782-5cd1fdb44515"
+Path: /sitecore/templates/Feature/Experience Accelerator/Analytics/Rendering Parameters/Google Analytics/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9522463d-0594-4396-95f0-68196222fa18"

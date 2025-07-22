@@ -1,0 +1,13 @@
+﻿---
+ID: "9b358aea-99dc-4348-8e43-fa39b1d380cc"
+Parent: "5e680478-0705-4452-a14b-42b945eb1ab6"
+Template: "5e680478-0705-4452-a14b-42b945eb1ab6"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Content/Rendering Parameters/IPagination/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc86e757-b9f7-4c4e-bf78-ff60f454c620"

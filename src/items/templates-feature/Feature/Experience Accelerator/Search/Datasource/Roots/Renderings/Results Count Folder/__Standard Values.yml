@@ -1,0 +1,19 @@
+﻿---
+ID: "9179970a-6ab9-4eac-81f8-91ae248c4b40"
+Parent: "d873c6e4-52b6-408b-b44b-a27b67e5daf9"
+Template: "d873c6e4-52b6-408b-b44b-a27b67e5daf9"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Roots/Renderings/Results Count Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F3C0661E-F9A9-444C-A26D-44BF2A68A186}
+    {D873C6E4-52B6-408B-B44B-A27B67E5DAF9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61ac6466-8282-41aa-ba40-39a881422d84"

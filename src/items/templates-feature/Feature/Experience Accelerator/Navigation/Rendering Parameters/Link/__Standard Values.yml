@@ -1,0 +1,13 @@
+﻿---
+ID: "368ba45c-a95c-4475-9549-59c8cab74108"
+Parent: "930f134d-5678-4b35-bfd1-b77f9d0115f1"
+Template: "930f134d-5678-4b35-bfd1-b77f9d0115f1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Navigation/Rendering Parameters/Link/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2363b261-9a8d-4c12-9fda-7a869d0b9e2d"

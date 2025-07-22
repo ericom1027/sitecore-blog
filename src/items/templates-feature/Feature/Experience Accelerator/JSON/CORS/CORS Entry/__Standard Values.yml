@@ -1,0 +1,23 @@
+﻿---
+ID: "bb33e7ce-a179-4964-b695-50adbb3e0913"
+Parent: "5203732f-9512-4ade-8e02-0cb085c10454"
+Template: "5203732f-9512-4ade-8e02-0cb085c10454"
+Path: /sitecore/templates/Feature/Experience Accelerator/JSON/CORS/CORS Entry/__Standard Values
+SharedFields:
+- ID: "1c9e9ecd-8a44-4e07-a9cd-9e065fbbad17"
+  Hint: Allow Headers
+  Value: *
+- ID: "4b34f7c7-ba6f-4629-810e-6ca3441f4689"
+  Hint: Allow Methods
+  Value: GET
+- ID: "6ddd6e6e-9b58-45a8-970b-6c7228c62688"
+  Hint: Allow Origin
+  Value: *
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fc68f57-81e7-416b-ae62-2e7afe668566"

@@ -1,0 +1,13 @@
+﻿---
+ID: "be1fcb06-0791-453a-acc1-044e7cf87793"
+Parent: "bbbb5070-016b-4f23-91bb-2517a38bfcd4"
+Template: "bbbb5070-016b-4f23-91bb-2517a38bfcd4"
+Path: /sitecore/templates/Feature/Experience Accelerator/Media/Rendering Parameters/MediaLinkParameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6d62277-60fd-4f1e-8ef2-9998ec610894"

@@ -1,0 +1,13 @@
+﻿---
+ID: "b16f19b8-8ff5-4885-8932-91cb5ab4409b"
+Parent: "e4d41f2b-b447-4f93-95ca-166310e0e328"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: "/sitecore/templates/Project/case-study-templates/test"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc26ac6b-6d06-43b4-aa97-ec9e6f4f79f9"

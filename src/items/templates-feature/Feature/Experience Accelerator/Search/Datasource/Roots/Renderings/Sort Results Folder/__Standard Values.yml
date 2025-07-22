@@ -1,0 +1,19 @@
+﻿---
+ID: "57a7226f-70a7-4d58-a85c-5def71612e57"
+Parent: "c24428ab-3af5-44cd-ab5f-5f7e33f9d1ac"
+Template: "c24428ab-3af5-44cd-ab5f-5f7e33f9d1ac"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Roots/Renderings/Sort Results Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {CD618631-E4E3-4943-A3A4-D3B4B39DF327}
+    {C24428AB-3AF5-44CD-AB5F-5F7E33F9D1AC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec883e83-1a5c-4653-a0cf-675428a1a891"

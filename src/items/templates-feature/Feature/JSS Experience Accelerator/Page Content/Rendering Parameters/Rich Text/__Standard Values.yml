@@ -1,0 +1,13 @@
+﻿---
+ID: "9f1a4278-031f-4f5c-8af5-d1f47f78da09"
+Parent: "0f3b7336-6112-418c-8bba-b0526f3887ce"
+Template: "0f3b7336-6112-418c-8bba-b0526f3887ce"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Rich Text/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9c16c35-98c2-4c8c-a88b-3f832e34eb67"

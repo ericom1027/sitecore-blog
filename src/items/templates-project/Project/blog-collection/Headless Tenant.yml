@@ -1,0 +1,26 @@
+﻿---
+ID: "267309a1-0fb9-4a2b-89a3-895475a85b01"
+Parent: "940f0b84-0b7b-41bb-aa14-95984c176fed"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Project/blog-collection/Headless Tenant"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/window.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {B91811F1-FA8B-47F8-B131-BD2C6D5EC805}
+    {3BC304DB-FE8F-4AA8-B95C-8C331E823F4C}
+    {DCB42A80-68C9-46F9-B036-BC44A27D96FE}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{25DDCB4C-E762-406E-8D14-98E0240D312D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4511fa7-9fa2-49fa-b28c-3d8ad84d31d3"

@@ -1,0 +1,13 @@
+﻿---
+ID: "27478377-b986-4b4f-bb18-cdddd8cbbe54"
+Parent: "e8091cb4-7d93-4ae8-ba34-b4b61d8b9a7d"
+Template: "e8091cb4-7d93-4ae8-ba34-b4b61d8b9a7d"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Content/Rendering Parameters/Rich Text/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "919fdad9-3d02-428f-af1b-a8c8efbb2d88"

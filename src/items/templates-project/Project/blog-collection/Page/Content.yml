@@ -1,0 +1,13 @@
+﻿---
+ID: "85d13085-b22a-4178-8f2d-22e3c27a2791"
+Parent: "082769bc-fb10-4c66-b2ff-b2c4aaaf1991"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/Project/blog-collection/Page/Content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff80a844-c395-44f1-9dda-11d12944e38b"

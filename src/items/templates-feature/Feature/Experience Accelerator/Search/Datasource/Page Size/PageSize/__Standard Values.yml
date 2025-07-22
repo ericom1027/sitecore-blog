@@ -1,0 +1,13 @@
+﻿---
+ID: "1225409a-1a4b-4393-88dd-1ee0918f3dfd"
+Parent: "b682562e-0af6-4b3e-9e3b-45273bbe152d"
+Template: "b682562e-0af6-4b3e-9e3b-45273bbe152d"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Page Size/PageSize/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ed42f7f-ffa0-4463-975e-ea320cd42217"

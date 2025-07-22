@@ -1,0 +1,22 @@
+﻿---
+ID: "873405a2-e810-4ee9-a259-0732f36d2a6c"
+Parent: "082769bc-fb10-4c66-b2ff-b2c4aaaf1991"
+Template: "082769bc-fb10-4c66-b2ff-b2c4aaaf1991"
+Path: "/sitecore/templates/Project/blog-collection/Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {082769BC-FB10-4C66-B2FF-B2C4AAAF1991}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c6991c9-6452-483c-9a7d-6f5bf3b6aa69"
+    - ID: "bad0b56a-5a9c-42a7-9b97-a2e1652b402d"
+      Hint: Title
+      Value: $name

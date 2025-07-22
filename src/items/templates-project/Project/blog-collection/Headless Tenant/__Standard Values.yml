@@ -1,0 +1,13 @@
+﻿---
+ID: "25ddcb4c-e762-406e-8d14-98e0240d312d"
+Parent: "267309a1-0fb9-4a2b-89a3-895475a85b01"
+Template: "267309a1-0fb9-4a2b-89a3-895475a85b01"
+Path: "/sitecore/templates/Project/blog-collection/Headless Tenant/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9493707-990c-44e0-8922-92be815099ee"

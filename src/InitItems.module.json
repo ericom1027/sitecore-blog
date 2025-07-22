@@ -1,0 +1,19 @@
+{
+    "namespace": "InitItems",
+    "items": {
+        "includes": [
+            {
+                "name": "content-root",
+                "path": "/sitecore/content",
+                "scope": "singleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/case-study",
+                "scope": "singleItem",
+                "allowedPushOperations": "CreateAndUpdate"
+            }
+        ]
+    }
+}

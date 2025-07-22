@@ -1,0 +1,25 @@
+﻿---
+ID: "1101c180-937e-40f8-86cf-2c2fb5724cc6"
+Parent: "5ef07850-4c04-4b83-9daf-efd752cfaba8"
+Template: "5ef07850-4c04-4b83-9daf-efd752cfaba8"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Datasource/Flip/Flip/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{36F45117-539A-4A13-ABF8-F1F74CB4B249}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{B794ED3A-F795-4C94-B366-FCFDF57D75AE}" />
+        </r>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4d9b4cd-1aba-4f26-be15-d65027e07529"

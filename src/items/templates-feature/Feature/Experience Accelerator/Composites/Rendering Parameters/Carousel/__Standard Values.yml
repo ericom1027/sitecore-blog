@@ -1,0 +1,26 @@
+﻿---
+ID: "fa6100af-f1b2-4aaf-b5f3-1686f9979090"
+Parent: "2b65f0d8-7ec5-4834-b4aa-1753c0f7036b"
+Template: "2b65f0d8-7ec5-4834-b4aa-1753c0f7036b"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Rendering Parameters/Carousel/__Standard Values
+SharedFields:
+- ID: "029abe5e-efc8-4c4d-8105-2cba77bff85f"
+  Hint: Navigation
+  Value: "{848DFE42-2B13-430E-A0B9-89CE25730A06}"
+- ID: "3bce2e36-c396-45e6-80a7-8329b6ea75ac"
+  Hint: Transition
+  Value: "{D4B706CC-7EEC-4DB9-A87D-123B29803490}"
+- ID: "55dbfd60-55af-41ad-9d9e-2fa65a3ff8ef"
+  Hint: PauseOnHover
+  Value: 1
+- ID: "b681a046-4094-45cf-b6fd-89a700142592"
+  Hint: Timeout
+  Value: 2000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf0d4712-aaa1-4c79-a62e-aa944a52de4d"

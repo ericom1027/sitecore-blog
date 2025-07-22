@@ -1,0 +1,13 @@
+﻿---
+ID: "49610905-a886-45d9-a5bf-0f1e4832f9b7"
+Parent: "f6ab882e-0ab2-46ad-b0d9-e3bc425c4b66"
+Template: "f6ab882e-0ab2-46ad-b0d9-e3bc425c4b66"
+Path: /sitecore/templates/Feature/Experience Accelerator/Taxonomy/Rendering Parameters/Tag List/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2f18ff3-f560-4eac-831b-d881871c1e6a"

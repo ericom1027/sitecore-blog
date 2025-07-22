@@ -1,0 +1,13 @@
+﻿---
+ID: "338e4dcd-1f71-45bd-b32e-4600d1a3527c"
+Parent: "8807c9d3-406d-419a-9262-d8f3eae6832c"
+Template: "8807c9d3-406d-419a-9262-d8f3eae6832c"
+Path: /sitecore/templates/Feature/Experience Accelerator/Security/Rendering Parameters/Login/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "510c3c57-8e01-47eb-9c81-fe46c30b1943"

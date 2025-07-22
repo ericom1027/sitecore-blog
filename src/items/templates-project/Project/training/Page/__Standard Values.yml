@@ -1,0 +1,25 @@
+﻿---
+ID: "167fbdd7-da33-40ee-8581-31297628a52a"
+Parent: "7db75db6-308b-4c25-b7cc-eacce80f1f7f"
+Template: "7db75db6-308b-4c25-b7cc-eacce80f1f7f"
+Path: /sitecore/templates/Project/training/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {7DB75DB6-308B-4C25-B7CC-EACCE80F1F7F}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2bd8384e-0009-4720-b461-65762ad5fabb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fca87d3c-67ab-42dd-8ba4-557e602b9a47"
+    - ID: "b0b9ed08-ab84-439c-acba-f5ec9ec37ada"
+      Hint: Title
+      Value: $name

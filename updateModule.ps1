@@ -1,71 +1,64 @@
-# Write name in module.json replacing $name placeholder based on COMPOSE_PROJECT_NAME in the .env file
-$buildJsonPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "xmcloud.build.json"
-if (Test-Path -Path $buildJsonPath) {
-    $buildJson = Get-Content -Path $buildJsonPath -Raw | ConvertFrom-Json
-    $composeProjectName = $buildJson.renderingHosts.xmcloudpreview.name
+# Store COMPOSE_PROJECT_NAME from .env into a projectname variable
+$projectname = (Get-Content .env | Where-Object { $_ -match '^COMPOSE_PROJECT_NAME=' }).Split('=')[1].Trim()
+$nodeVersion = (Get-Content .env | Where-Object { $_ -match '^NODEJS_VERSION=' }).Split('=')[1].Trim()
+
+# Clone the sxastarter from renderinghosts folder and rename the folder into projectname
+$sourcePath = ".\src\renderinghosts\sxastarter"
+$destinationPath = ".\src\renderinghosts\$projectname"
+if (Test-Path $sourcePath) {
+    if (-Not (Test-Path $destinationPath)) {
+        Copy-Item -Path $sourcePath -Destination $destinationPath -Recurse
+        Write-Host "Cloned sxastarter to $destinationPath"
+    } else {
+        Write-Host "Destination path already exists: $destinationPath"
+    }
 } else {
-    $composeProjectName = $null
+    Write-Host "Source path does not exist: $sourcePath"
+}
+# Update the xmcloud.build.json file and add a new entry in renderingHosts node based on new projectname
+$jsonFilePath = ".\xmcloud.build.json"
+$jsonContent = Get-Content $jsonFilePath | ConvertFrom-Json
+if (-not (Get-Member -InputObject $jsonContent.renderingHosts -Name $projectname -MemberType NoteProperty)) {
+    $newEntry = @{
+        name = $projectname
+        path = "./src/renderinghosts/$projectname"
+        nodeVersion = $nodeVersion
+        jssDeploymentSecret = "110F1C44A496B45478640DD36F80C18C9"
+        enabled = $true
+        type = "sxa"
+        lintCommand = "lint"
+        startCommand = "start:production"
+    }
+
+    $jsonContent.renderingHosts | Add-Member -MemberType NoteProperty -Name $projectname -Value $newEntry
+    $jsonContent | ConvertTo-Json -Depth 10 | Set-Content $jsonFilePath
+    Write-Host "Updated $jsonFilePath with new rendering host: $projectname"
+} else {
+    Write-Host "Rendering host already exists: $projectname"
 }
 
-if ($composeProjectName) {
-  # Replace the name and appName with placeholder $name in package.json file to match the project name
-    Write-Host "Updating package.json with project name '$composeProjectName'..." -ForegroundColor Green
-    $packageJsonPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "src/sxastarter/package.json"
-    if (Test-Path -Path $packageJsonPath) {
-        $packageJson = Get-Content -Path $packageJsonPath -Raw | ConvertFrom-Json
-        if ($packageJson) {
-            # Update the name and appName properties
-            $packageJson.name = $composeProjectName
-            $packageJson.config.appName = $composeProjectName
-            
-            # Save the updated JSON back to the file
-            $packageJson | ConvertTo-Json -Depth 10 | Set-Content -Path $packageJsonPath -Force
-            Write-Host "Updated package.json with '$composeProjectName'." -ForegroundColor Green
-        } else {
-            Write-Warning "Could not parse JSON from $packageJsonPath. Skipping update."
-        }
-    } else {
-        Write-Warning "Package.json file not found at path '$packageJsonPath'. Skipping update."
-    }
-  # Copy the contents of the modules folder to src folder
-    $srcPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "src"
-    $modulesPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "modules"
-    
-    if (Test-Path -Path $modulesPath) {
-        # Ensure the src folder exists
-        if (-not (Test-Path -Path $srcPath)) {
-            New-Item -Path $srcPath -ItemType Directory -Force | Out-Null
-        }
-        
-        # Copy all files and folders from modules to src recursively
-        Copy-Item -Path "$modulesPath\*" -Destination $srcPath -Recurse -Force
-        Write-Host "Copied all content from $modulesPath to $srcPath." -ForegroundColor Green
-    } else {
-        Write-Warning "Modules path '$modulesPath' does not exist. Skipping copy."
-    }
-
-    # Copy the contents of serializarion folder to the src/items folder
-    $serializationPath = Join-Path -Path (Split-Path -Parent $MyInvocation.MyCommand.Path) -ChildPath "serialization"
-    $srcItemsPath = Join-Path -Path $srcPath -ChildPath "items"
-    $contentPath = Join-Path -Path $srcItemsPath -ChildPath "content"
-
-     if (-not (Test-Path -Path $contentPath)) {
-        if (Test-Path -Path $serializationPath) {
-                # Ensure the src/items folder exists
-                if (-not (Test-Path -Path $srcItemsPath)) {
-                    New-Item -Path $srcItemsPath -ItemType Directory -Force | Out-Null
-                }
-                
-                # Copy all files and folders from serialization to src/items recursively
-                Copy-Item -Path "$serializationPath\*" -Destination $srcItemsPath -Recurse -Force
-                Write-Host "Copied all content from $serializationPath to $srcItemsPath." -ForegroundColor Green
-            } else {
-                Write-Warning "Serialization path '$serializationPath' does not exist. Skipping copy."
-            }
-    }
-
-
-        
+# Update the .env file RENDERING_HOST_PATH to .\src\renderinghosts\$projectname
+$envFilePath = ".\.env"
+$envContent = Get-Content $envFilePath
+$renderingHostPathLine = $envContent | Where-Object { $_ -match '^RENDERING_HOST_PATH=' }
+if ($renderingHostPathLine) {
+    $newRenderingHostPath = "RENDERING_HOST_PATH=.\src\renderinghosts\$projectname"
+    $envContent = $envContent -replace '^RENDERING_HOST_PATH=.*', $newRenderingHostPath
+    Set-Content -Path $envFilePath -Value $envContent
+    Write-Host "Updated RENDERING_HOST_PATH in .env to: $newRenderingHostPath"
 } else {
-    Write-Warning "COMPOSE_PROJECT_NAME not set in .env file. Skipping module.json update."
+    Write-Host "RENDERING_HOST_PATH not found in .env file."
+}
+#Update name and appName field in package.json file in the new rendering host folder 
+
+# Rename
+$packageJsonPath = ".\src\renderinghosts\$projectname\package.json"
+if (Test-Path $packageJsonPath) {
+    $packageJsonContent = Get-Content $packageJsonPath | ConvertFrom-Json
+    $packageJsonContent.name = $projectname
+    $packageJsonContent.config.appName = $projectname
+    $packageJsonContent | ConvertTo-Json -Depth 10 | Set-Content $packageJsonPath
+    Write-Host "Updated $packageJsonPath with new name and appName: $projectname"
+} else {
+    Write-Host "package.json not found: $packageJsonPath"
 }

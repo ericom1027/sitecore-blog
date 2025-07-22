@@ -1,0 +1,20 @@
+﻿---
+ID: "c61790e8-b754-4264-990d-0c668e658e30"
+Parent: "45ca023a-9441-4df0-b1b5-583ca4bc09c1"
+Template: "45ca023a-9441-4df0-b1b5-583ca4bc09c1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Rendering Parameters/Results Variant Selector/__Standard Values
+SharedFields:
+- ID: "aafc5448-b00f-4942-8002-6f53f21a304d"
+  Hint: AvailableVariants
+  Value: 
+- ID: "e42027f4-766d-45a7-8cf4-29e5c94326f7"
+  Hint: Placeholder
+  Value: "/main/container-1/container-1/column-1-1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c16cf74-3bf8-4afc-a21a-a7e889308f6f"

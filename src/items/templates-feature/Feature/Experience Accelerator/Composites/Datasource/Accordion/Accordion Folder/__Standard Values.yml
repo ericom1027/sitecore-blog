@@ -1,0 +1,19 @@
+﻿---
+ID: "17836f41-6e39-4019-9083-8e64ad6e3e14"
+Parent: "68c00cb0-320b-4324-903a-f6ad56a2a105"
+Template: "68c00cb0-320b-4324-903a-f6ad56a2a105"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Datasource/Accordion/Accordion Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {BAB1FB9B-58A3-4DF8-9F05-204B25DDB8E0}
+    {68C00CB0-320B-4324-903A-F6AD56A2A105}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "979e75ab-3a32-4107-ad75-7394d0cc0954"

@@ -1,0 +1,25 @@
+﻿---
+ID: "57068f64-055c-49d7-96b8-8ee6fb63829e"
+Parent: "3cdc44fd-b7e4-44b0-8f34-c4ba7c8d9773"
+Template: "3cdc44fd-b7e4-44b0-8f34-c4ba7c8d9773"
+Path: /sitecore/templates/Project/play/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3CDC44FD-B7E4-44B0-8F34-C4BA7C8D9773}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "220eadd4-5016-40a8-910d-1a3e749158c6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "339b9b7d-4d22-428b-8550-e6d8cbe1cd92"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "308266a5-ba98-4f55-8b17-c396ca8593a1"

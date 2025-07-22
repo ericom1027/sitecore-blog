@@ -1,0 +1,20 @@
+﻿---
+ID: "6d4cba6a-de5f-47ed-b832-4e164bc111ce"
+Parent: "efafbbf5-01a0-46d3-9f7b-e71763e7f221"
+Template: "efafbbf5-01a0-46d3-9f7b-e71763e7f221"
+Path: /sitecore/templates/Feature/Experience Accelerator/Social/Settings/Social Media Buttons/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/users3.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{3DE7AA7E-961A-4B90-98F2-01AC2BE92EC5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5dea51f4-7e14-4eb5-8db3-63e9d2bcc68b"

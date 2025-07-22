@@ -1,0 +1,17 @@
+﻿---
+ID: "1d6c16e5-48c1-4cd5-ba19-74770f7be193"
+Parent: "456067df-fc7d-4639-9177-41f69e81c927"
+Template: "456067df-fc7d-4639-9177-41f69e81c927"
+Path: /sitecore/templates/Feature/Experience Accelerator/Social/Settings/Twitter Apps/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{1D840426-5DEF-4A76-811C-E73DA21F64AC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7948f0a-f5bd-4ef1-a53f-3af97b80b588"

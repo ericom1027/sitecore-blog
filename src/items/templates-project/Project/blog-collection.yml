@@ -1,0 +1,13 @@
+﻿---
+ID: "940f0b84-0b7b-41bb-aa14-95984c176fed"
+Parent: "825b30b4-b40b-422e-9920-23a1b6bda89c"
+Template: "77157d54-90c8-4014-9b9e-540d24e71d03"
+Path: "/sitecore/templates/Project/blog-collection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb46fecf-21fa-4163-a350-56a0b3c6c700"

@@ -1,0 +1,19 @@
+﻿---
+ID: "09e1d07e-2472-467e-b1fa-04ccad04da40"
+Parent: "8d84f263-a22a-4967-9cce-cc12407e05fc"
+Template: "8d84f263-a22a-4967-9cce-cc12407e05fc"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Datasource/Flip/Flip Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {7152D5BD-BDF6-424F-96B1-E268B0C4808E}
+    {8D84F263-A22A-4967-9CCE-CC12407E05FC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b23b154-526e-452b-8d0b-f6a47d4306d1"

@@ -1,0 +1,20 @@
+﻿---
+ID: "650e2394-3522-4de3-ba54-907b4f88244c"
+Parent: "92e4e12a-efe6-48e8-ac16-86862dab37d2"
+Template: "92e4e12a-efe6-48e8-ac16-86862dab37d2"
+Path: /sitecore/templates/Feature/Experience Accelerator/Navigation/Rendering Parameters/Breadcrumb/__Standard Values
+SharedFields:
+- ID: "0d87350b-ead7-43b3-85e7-f272048daf5d"
+  Hint: Filter
+  Value: 
+- ID: "7eabbf58-e0e7-48c0-b96f-c286a1197437"
+  Hint: Separator
+  Value: >
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9e9cc8b-bb62-49a8-b719-cabea81b29ff"

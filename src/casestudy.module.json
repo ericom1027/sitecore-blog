@@ -1,0 +1,38 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "case-study",
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "renderings-project",
+                "path": "/sitecore/layout/Renderings/Project",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "templates-project",
+                "path": "/sitecore/templates/Project",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "renderings-feature",
+                "path": "/sitecore/layout/Renderings/Feature",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "templates-feature",
+                "path": "/sitecore/templates/Feature",
+                "allowedPushOperations": "CreateAndUpdate"
+            }
+        ]
+    }
+}

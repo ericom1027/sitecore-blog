@@ -1,0 +1,13 @@
+﻿---
+ID: "1bbfdbae-1822-4820-b84f-6c9dddc9ed64"
+Parent: "8ea79225-5892-42d2-9e60-69c80cabdeda"
+Template: "8ea79225-5892-42d2-9e60-69c80cabdeda"
+Path: "/sitecore/templates/Project/blog-collection/JSS Settings/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a83ba35-4b48-4a2d-8546-a3db14d8723e"

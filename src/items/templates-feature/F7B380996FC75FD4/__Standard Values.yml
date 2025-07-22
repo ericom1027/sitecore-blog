@@ -1,0 +1,23 @@
+﻿---
+ID: "e2184b33-be20-48f8-aebd-22d9d4023750"
+Parent: "f74cad62-5eb2-45ee-93c1-691f264453ab"
+Template: "f74cad62-5eb2-45ee-93c1-691f264453ab"
+Path: /sitecore/templates/Feature/Experience Accelerator/Engagement/Rendering Parameters/FacebookCommentsParametersTemplate/__Standard Values
+SharedFields:
+- ID: "399df37d-aa47-4e46-9621-723928d1ddfa"
+  Hint: Color Scheme
+  Value: Light
+- ID: "afb8261f-0119-4eef-8573-2394937a6a04"
+  Hint: Number of Posts
+  Value: 5
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e99cc46-6f1a-45d3-8906-3e20746894cf"

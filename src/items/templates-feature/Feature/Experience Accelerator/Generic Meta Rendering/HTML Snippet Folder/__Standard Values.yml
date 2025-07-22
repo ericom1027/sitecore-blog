@@ -1,0 +1,22 @@
+﻿---
+ID: "79cbba63-df61-46dc-aeca-0a4e0afc9030"
+Parent: "35abcb7f-dd86-483d-abe1-41c93c3aa7d9"
+Template: "35abcb7f-dd86-483d-abe1-41c93c3aa7d9"
+Path: /sitecore/templates/Feature/Experience Accelerator/Generic Meta Rendering/HTML Snippet Folder/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/document_gear.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {25F18683-2F03-4776-ADA3-6D2A76DBDF2D}
+    {35ABCB7F-DD86-483D-ABE1-41C93C3AA7D9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11c4d396-2192-4b19-a849-6f653af21318"

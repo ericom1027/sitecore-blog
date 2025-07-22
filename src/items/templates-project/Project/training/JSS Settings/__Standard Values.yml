@@ -1,0 +1,13 @@
+﻿---
+ID: "f76c4d36-008e-4e7a-9d65-b325d1dfb0eb"
+Parent: "d6247f8b-9c23-4741-b429-e8f70cd34c97"
+Template: "d6247f8b-9c23-4741-b429-e8f70cd34c97"
+Path: /sitecore/templates/Project/training/JSS Settings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "233b062b-498d-4546-b4d7-f9cd96a6abdd"

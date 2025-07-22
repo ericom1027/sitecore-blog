@@ -1,0 +1,20 @@
+﻿---
+ID: "b4837669-6270-4b6c-a466-a825dc1f9fe3"
+Parent: "48fb6b99-2593-46ef-9c46-86e51e434da2"
+Template: "48fb6b99-2593-46ef-9c46-86e51e434da2"
+Path: /sitecore/templates/Feature/Experience Accelerator/JSON/Rendering Parameters/JSONResults/__Standard Values
+SharedFields:
+- ID: "1b315061-0cb5-4eab-bca9-c7f0f480e228"
+  Hint: Property Name
+  Value: results
+- ID: "d629f480-1d96-4ad2-824e-04abd30eb88c"
+  Hint: PageSize
+  Value: 20
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4024fc32-5942-498e-8ab4-c0ddc8b8f163"

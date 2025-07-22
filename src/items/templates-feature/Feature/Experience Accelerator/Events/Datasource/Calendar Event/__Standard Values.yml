@@ -1,0 +1,83 @@
+﻿---
+ID: "8cc8e24a-8928-4cd0-b8cb-ba009e5c1b4d"
+Parent: "62c2b7d0-1c34-4aa6-b3d3-5d612c0891bd"
+Template: "62c2b7d0-1c34-4aa6-b3d3-5d612c0891bd"
+Path: /sitecore/templates/Feature/Experience Accelerator/Events/Datasource/Calendar Event/__Standard Values
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "a746e8b0-b3a9-4918-a3c6-db8977dd0da5"
+      Hint: EndLabel
+      Value: Til
+    - ID: "b2acd4da-a306-460b-81dc-fe40d3461a43"
+      Hint: StartLabel
+      Value: Fra
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "a746e8b0-b3a9-4918-a3c6-db8977dd0da5"
+      Hint: EndLabel
+      Value: An
+    - ID: "b2acd4da-a306-460b-81dc-fe40d3461a43"
+      Hint: StartLabel
+      Value: Von
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fb9f55d-2c43-49c2-a61d-df8552c88c20"
+      Hint: EventName
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16313145-6cab-42c6-8968-b520cae2996a"
+    - ID: "a746e8b0-b3a9-4918-a3c6-db8977dd0da5"
+      Hint: EndLabel
+      Value: to
+    - ID: "b2acd4da-a306-460b-81dc-fe40d3461a43"
+      Hint: StartLabel
+      Value: from
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "a746e8b0-b3a9-4918-a3c6-db8977dd0da5"
+      Hint: EndLabel
+      Value: 宛先
+    - ID: "b2acd4da-a306-460b-81dc-fe40d3461a43"
+      Hint: StartLabel
+      Value: 参照元
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "a746e8b0-b3a9-4918-a3c6-db8977dd0da5"
+      Hint: EndLabel
+      Value: 至
+    - ID: "b2acd4da-a306-460b-81dc-fe40d3461a43"
+      Hint: StartLabel
+      Value: 从

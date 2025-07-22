@@ -1,0 +1,17 @@
+﻿---
+ID: "6a2da4ec-aaa1-4a55-84c0-aa8269a82eb0"
+Parent: "95baf527-4502-4cdb-b331-baab664417ae"
+Template: "95baf527-4502-4cdb-b331-baab664417ae"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Rendering Parameters/Location Filter/__Standard Values
+SharedFields:
+- ID: "daa889fe-51ef-44cf-a68b-148cb0fe534b"
+  Hint: Mode
+  Value: Mixed
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95e972c4-f796-449d-9732-4d9123fb8087"

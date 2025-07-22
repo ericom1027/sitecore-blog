@@ -1,0 +1,13 @@
+﻿---
+ID: "44e21447-1df9-4869-a793-640de1661981"
+Parent: "f5f0fbe3-61ad-4967-a5d8-8d760331d6a1"
+Template: "3d281bf8-5336-4686-9dd6-ab4ab5b3fd5d"
+Path: "/sitecore/layout/Placeholder Settings/Project/blog-collection"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed888fed-e675-49d0-b485-6b5d5c5182c5"

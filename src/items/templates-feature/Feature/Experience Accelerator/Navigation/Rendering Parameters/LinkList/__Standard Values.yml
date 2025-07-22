@@ -1,0 +1,17 @@
+﻿---
+ID: "547b4550-dffe-4f2e-9d56-633aea9d34bd"
+Parent: "97a593ad-2731-41dc-80bf-ceb5ef6a33b7"
+Template: "97a593ad-2731-41dc-80bf-ceb5ef6a33b7"
+Path: /sitecore/templates/Feature/Experience Accelerator/Navigation/Rendering Parameters/LinkList/__Standard Values
+SharedFields:
+- ID: "6cac7197-f819-4d30-a1eb-852016299d08"
+  Hint: TitleHeadingLevel
+  Value: "{6A44D9C6-61F0-4B69-8E1A-FDC27F96BA0F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d4637e4-d05f-4f10-984a-52397458c488"

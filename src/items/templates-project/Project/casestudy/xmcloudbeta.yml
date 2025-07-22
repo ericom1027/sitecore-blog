@@ -1,0 +1,13 @@
+﻿---
+ID: "7bfd88cf-693a-464e-bf75-a677b5f5bd87"
+Parent: "fc3ef809-14f0-4bb3-aad9-72c4df8337a7"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/casestudy/xmcloudbeta
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0dfffa13-ddae-4674-a10e-5e08e74cde91"

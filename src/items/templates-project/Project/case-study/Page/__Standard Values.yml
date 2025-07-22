@@ -1,0 +1,25 @@
+﻿---
+ID: "da5b5ff0-b402-4f44-a4a8-e15793df2e5d"
+Parent: "a847287b-da28-4bec-9cf4-42b0ebd0d215"
+Template: "a847287b-da28-4bec-9cf4-42b0ebd0d215"
+Path: "/sitecore/templates/Project/case-study/Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A847287B-DA28-4BEC-9CF4-42B0EBD0D215}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ad32217e-1958-46e2-982d-bb5e3f6f82b0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "162dc796-8f3f-4296-8e67-76f074795f4f"
+    - ID: "c320a2b1-b8ba-4e9f-b431-581063b190eb"
+      Hint: Title
+      Value: $name

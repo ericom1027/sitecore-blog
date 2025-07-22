@@ -1,0 +1,29 @@
+﻿---
+ID: "aeb6d21a-463c-4c6f-b0ca-2018aa93d5ce"
+Parent: "85bc7a7f-dd82-4a5e-9de1-99f38d38a698"
+Template: "85bc7a7f-dd82-4a5e-9de1-99f38d38a698"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Rendering Parameters/Search Box/__Standard Values
+SharedFields:
+- ID: "02fa2f4a-42a3-4610-98b6-26d273df7136"
+  Hint: SearchTextBoxVisible
+  Value: 1
+- ID: "80b843f9-c114-4d25-b31d-bcf5719a7beb"
+  Hint: DefaultLanguageFilter
+  Value: "{7AF59736-D91C-4AA1-8610-1202FDD31D68}"
+- ID: "c82418e9-09f7-4999-834b-2e92a3fb08e9"
+  Hint: MinSuggestionsTriggerCharacterCount
+  Value: 2
+- ID: "c8b4f409-bee6-4a0d-baa4-6a5d398507f3"
+  Hint: SuggestionsMode
+  Value: ShowSearchResults
+- ID: "e619a1a3-684c-4a67-ae35-b9ff24385ce2"
+  Hint: MaxPredictiveResultsCount
+  Value: 5
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78a13c05-e8c0-40d6-8868-c204f889a31f"

@@ -1,0 +1,19 @@
+﻿---
+ID: "33d2c1b0-6637-41c5-b22e-00aec03e2f42"
+Parent: "8d85d00e-ecde-4b9a-a53c-0c01d60274e4"
+Template: "8d85d00e-ecde-4b9a-a53c-0c01d60274e4"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Roots/Renderings/Date Filter Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {AD89C1F1-E991-48EF-8659-38AB13AA28F1}
+    {8D85D00E-ECDE-4B9A-A53C-0C01D60274E4}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "008a31b7-3cef-437b-8b60-6e936e57867b"

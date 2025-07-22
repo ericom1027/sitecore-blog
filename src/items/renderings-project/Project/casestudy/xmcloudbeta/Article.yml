@@ -1,0 +1,30 @@
+﻿---
+ID: "71172580-abeb-4668-aed7-a91fcf287646"
+Parent: "b4b26dbf-a213-4868-89a5-ad5c67aa60a6"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/casestudy/xmcloudbeta/Article
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Article
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/casestudy/xmcloudbeta/Article
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/casestudy/xmcloudbeta/Data/Texts
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "314332b9-dbcb-42c8-9f0c-35957489bd19"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "76df4ab0-9691-4b2d-9f77-1a769c545288"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae8205c2-bd9b-44e1-8aeb-7a1dda2b8fd9"

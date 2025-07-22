@@ -1,0 +1,13 @@
+﻿---
+ID: "290f243e-9c4b-499e-9467-881a5095f366"
+Parent: "05bddf01-a0b8-4209-acca-6fe01c64f09d"
+Template: "05bddf01-a0b8-4209-acca-6fe01c64f09d"
+Path: /sitecore/templates/Feature/Experience Accelerator/Maps/Rendering Parameters/Map Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "923a1a6c-eedb-4943-8a72-a3cee1b8f6ff"

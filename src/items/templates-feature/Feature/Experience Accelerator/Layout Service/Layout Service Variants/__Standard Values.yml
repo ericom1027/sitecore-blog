@@ -1,0 +1,17 @@
+﻿---
+ID: "f204b4b5-aa4a-403b-9f6c-c9318bdf293c"
+Parent: "fa0b4154-bb8a-4670-b378-e27ebc41445b"
+Template: "fa0b4154-bb8a-4670-b378-e27ebc41445b"
+Path: /sitecore/templates/Feature/Experience Accelerator/Layout Service/Layout Service Variants/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{2E1D7985-0BF1-469B-A00B-4F2AC443940C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8d102dc-173c-4ef7-a142-118bd027db0b"

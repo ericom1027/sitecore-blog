@@ -1,0 +1,22 @@
+﻿---
+ID: "19e0db4f-61c4-457a-9c06-f86ff673a7db"
+Parent: "3db5c823-61cb-449a-b4ab-e461626dc119"
+Template: "3db5c823-61cb-449a-b4ab-e461626dc119"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Roots/Renderings/Facet Summary Folder/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/checkbox_group.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {D829066A-F9D9-4507-A922-A3F6058DBB73}
+    {3DB5C823-61CB-449A-B4AB-E461626DC119}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3482cfe-d868-4611-ba73-e41fb4b0024d"

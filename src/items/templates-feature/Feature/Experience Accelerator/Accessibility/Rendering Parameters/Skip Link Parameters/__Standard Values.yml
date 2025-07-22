@@ -1,0 +1,25 @@
+﻿---
+ID: "49ca08b8-9928-470a-871b-67da66f79b31"
+Parent: "3920b223-9351-4357-8d0c-dd64eb4b5117"
+Template: "3920b223-9351-4357-8d0c-dd64eb4b5117"
+Path: /sitecore/templates/Feature/Experience Accelerator/Accessibility/Rendering Parameters/Skip Link Parameters/__Standard Values
+SharedFields:
+- ID: "4416aab3-2149-4423-82d0-1b5886d7dae8"
+  Hint: Skip Link Class
+  Value: "skip-link"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2aaa721d-be47-48b5-80ce-815d4dd9a321"
+  - Version: 2
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3af07d01-d247-4d7f-9f66-674aeb0ca812"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20180720T094358Z

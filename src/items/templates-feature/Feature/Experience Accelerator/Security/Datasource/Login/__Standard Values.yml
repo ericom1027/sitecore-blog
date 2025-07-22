@@ -1,0 +1,129 @@
+﻿---
+ID: "d1fa3a92-1ed6-4ec9-8c9e-0158363967e9"
+Parent: "abed54dc-4f78-40dd-ac56-2289c9c849d8"
+Template: "abed54dc-4f78-40dd-ac56-2289c9c849d8"
+Path: /sitecore/templates/Feature/Experience Accelerator/Security/Datasource/Login/__Standard Values
+SharedFields:
+- ID: "82d265e1-99d0-4a5f-964f-775a14dace71"
+  Hint: DisplayRememberMe
+  Value: 1
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "129b54ab-7d51-4c6b-899c-642bb3ee4b85"
+      Hint: RememberMeLabel
+      Value: Husk mig
+    - ID: "53e213e6-e020-4c32-a559-ec90b5b67179"
+      Hint: UsernameLabel
+      Value: "Brugernavn:"
+    - ID: "99c9fdd7-4503-489b-8a21-115b963aa341"
+      Hint: LoginButtonCaption
+      Value: Log ind
+    - ID: "b80f0331-68e7-4515-8485-903b5c8b2390"
+      Hint: PasswordLabel
+      Value: "Adgangskode:"
+    - ID: "bc5cd635-130e-4a03-a5d0-e1afb9ae6055"
+      Hint: FailureText
+      Value: Dit forsøg på login lykkedes ikke. Prøv igen.
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "129b54ab-7d51-4c6b-899c-642bb3ee4b85"
+      Hint: RememberMeLabel
+      Value: Erinnere mich
+    - ID: "53e213e6-e020-4c32-a559-ec90b5b67179"
+      Hint: UsernameLabel
+      Value: "Benutzername:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "99c9fdd7-4503-489b-8a21-115b963aa341"
+      Hint: LoginButtonCaption
+      Value: Login
+    - ID: "b80f0331-68e7-4515-8485-903b5c8b2390"
+      Hint: PasswordLabel
+      Value: "Passwort:"
+    - ID: "bc5cd635-130e-4a03-a5d0-e1afb9ae6055"
+      Hint: FailureText
+      Value: Ihr Login Versuch war nicht erfolgreich. Bitte versuchen Sie es erneut.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "129b54ab-7d51-4c6b-899c-642bb3ee4b85"
+      Hint: RememberMeLabel
+      Value: Remember Me
+    - ID: "53e213e6-e020-4c32-a559-ec90b5b67179"
+      Hint: UsernameLabel
+      Value: "Username:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5988215f-2ec3-4d1c-b42e-0adc26abd5b4"
+    - ID: "99c9fdd7-4503-489b-8a21-115b963aa341"
+      Hint: LoginButtonCaption
+      Value: Login
+    - ID: "b80f0331-68e7-4515-8485-903b5c8b2390"
+      Hint: PasswordLabel
+      Value: "Password:"
+    - ID: "bc5cd635-130e-4a03-a5d0-e1afb9ae6055"
+      Hint: FailureText
+      Value: Your login attempt was not successful. Please try again.
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "129b54ab-7d51-4c6b-899c-642bb3ee4b85"
+      Hint: RememberMeLabel
+      Value: パスワードを保存する
+    - ID: "53e213e6-e020-4c32-a559-ec90b5b67179"
+      Hint: UsernameLabel
+      Value: "ユーザー名:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "99c9fdd7-4503-489b-8a21-115b963aa341"
+      Hint: LoginButtonCaption
+      Value: ログイン
+    - ID: "b80f0331-68e7-4515-8485-903b5c8b2390"
+      Hint: PasswordLabel
+      Value: パスワード：
+    - ID: "bc5cd635-130e-4a03-a5d0-e1afb9ae6055"
+      Hint: FailureText
+      Value: ログインできませんでした。もう一度試してください。
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "129b54ab-7d51-4c6b-899c-642bb3ee4b85"
+      Hint: RememberMeLabel
+      Value: 记住我
+    - ID: "53e213e6-e020-4c32-a559-ec90b5b67179"
+      Hint: UsernameLabel
+      Value: 用户名：
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "99c9fdd7-4503-489b-8a21-115b963aa341"
+      Hint: LoginButtonCaption
+      Value: 登录
+    - ID: "b80f0331-68e7-4515-8485-903b5c8b2390"
+      Hint: PasswordLabel
+      Value: 密码：
+    - ID: "bc5cd635-130e-4a03-a5d0-e1afb9ae6055"
+      Hint: FailureText
+      Value: 您的登录尝试不成功。请再试一次。

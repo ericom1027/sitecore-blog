@@ -1,0 +1,110 @@
+﻿---
+ID: "0a8a57a5-9a52-4cbd-8315-43192c9305ea"
+Parent: "c4354a50-7a46-4df0-89ab-dd02db6d15cb"
+Template: "c4354a50-7a46-4df0-89ab-dd02db6d15cb"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Page Selector/__Standard Values
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6e8ae3cb-eafc-49a1-a1f2-efe2e9b04acd"
+      Hint: PreviousLabel
+      Value: Forrige
+    - ID: "85c8ab08-22ca-41bf-9673-f7d1f25174a7"
+      Hint: NextLabel
+      Value: Næste
+    - ID: "c431b494-cbb5-4bbd-8276-3d9be420fc92"
+      Hint: LastLabel
+      Value: Sidst
+    - ID: "cd2000f5-5ad5-44f0-8c83-5a87ea9812ac"
+      Hint: FirstLabel
+      Value: Først
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6e8ae3cb-eafc-49a1-a1f2-efe2e9b04acd"
+      Hint: PreviousLabel
+      Value: Vorherige
+    - ID: "85c8ab08-22ca-41bf-9673-f7d1f25174a7"
+      Hint: NextLabel
+      Value: Nächstes
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "c431b494-cbb5-4bbd-8276-3d9be420fc92"
+      Hint: LastLabel
+      Value: Letzter
+    - ID: "cd2000f5-5ad5-44f0-8c83-5a87ea9812ac"
+      Hint: FirstLabel
+      Value: Erster
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6e8ae3cb-eafc-49a1-a1f2-efe2e9b04acd"
+      Hint: PreviousLabel
+      Value: Previous
+    - ID: "85c8ab08-22ca-41bf-9673-f7d1f25174a7"
+      Hint: NextLabel
+      Value: Next
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "adcb20f3-3467-4225-a625-e6393f2b58f7"
+    - ID: "c431b494-cbb5-4bbd-8276-3d9be420fc92"
+      Hint: LastLabel
+      Value: Last
+    - ID: "cd2000f5-5ad5-44f0-8c83-5a87ea9812ac"
+      Hint: FirstLabel
+      Value: First
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6e8ae3cb-eafc-49a1-a1f2-efe2e9b04acd"
+      Hint: PreviousLabel
+      Value: 前へ
+    - ID: "85c8ab08-22ca-41bf-9673-f7d1f25174a7"
+      Hint: NextLabel
+      Value: 次へ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "c431b494-cbb5-4bbd-8276-3d9be420fc92"
+      Hint: LastLabel
+      Value: 最後
+    - ID: "cd2000f5-5ad5-44f0-8c83-5a87ea9812ac"
+      Hint: FirstLabel
+      Value: 最初
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6e8ae3cb-eafc-49a1-a1f2-efe2e9b04acd"
+      Hint: PreviousLabel
+      Value: 前一个
+    - ID: "85c8ab08-22ca-41bf-9673-f7d1f25174a7"
+      Hint: NextLabel
+      Value: 下一个
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+    - ID: "c431b494-cbb5-4bbd-8276-3d9be420fc92"
+      Hint: LastLabel
+      Value: 持续
+    - ID: "cd2000f5-5ad5-44f0-8c83-5a87ea9812ac"
+      Hint: FirstLabel
+      Value: 第一

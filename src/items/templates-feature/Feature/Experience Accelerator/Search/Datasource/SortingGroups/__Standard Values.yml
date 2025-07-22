@@ -1,0 +1,17 @@
+﻿---
+ID: "be647095-4fa4-4900-8376-2c482712c0fb"
+Parent: "cd618631-e4e3-4943-a3a4-d3b4b39df327"
+Template: "cd618631-e4e3-4943-a3a4-d3b4b39df327"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/SortingGroups/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{3E53AC1B-65E8-4AE2-8C5B-8BAF9C3D655E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0beb0575-9a3b-426b-ba68-6ddaf48857c6"

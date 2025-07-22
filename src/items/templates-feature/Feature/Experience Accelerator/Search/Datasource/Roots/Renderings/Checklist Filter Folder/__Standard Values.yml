@@ -1,0 +1,19 @@
+﻿---
+ID: "323af5d2-d7e7-4c5f-8894-a8c187fcd97c"
+Parent: "df757e41-d77e-4125-bad0-aa2e75ee4085"
+Template: "df757e41-d77e-4125-bad0-aa2e75ee4085"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Roots/Renderings/Checklist Filter Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6E188261-E572-4330-B88A-88C68B0926E7}
+    {DF757E41-D77E-4125-BAD0-AA2E75EE4085}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "973107f8-99d3-45a0-9f7d-d258a04ccacd"

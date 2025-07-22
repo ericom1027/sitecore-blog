@@ -1,0 +1,13 @@
+﻿---
+ID: "fbb33ad5-2fbd-41ab-b261-1eaccd50f52f"
+Parent: "7f21f14d-096b-4f27-bbcc-f115c6e6f6f1"
+Template: "7f21f14d-096b-4f27-bbcc-f115c6e6f6f1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Content/Rendering Parameters/Promo/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d63dfacf-2674-40c0-917b-c50cbdb6a677"

@@ -1,0 +1,19 @@
+﻿---
+ID: "2eb4a509-e23e-471b-a52a-0b4455684cfd"
+Parent: "29252703-d448-451c-bf1e-65b16174f4b0"
+Template: "29252703-d448-451c-bf1e-65b16174f4b0"
+Path: /sitecore/templates/Feature/Experience Accelerator/Content Tokens/Content Token Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {29252703-D448-451C-BF1E-65B16174F4B0}
+    {7D659EE9-D487-4D40-8A92-10C6D68844C8}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c64c833b-8e1b-4bb0-bd6a-ba272cc5842f"

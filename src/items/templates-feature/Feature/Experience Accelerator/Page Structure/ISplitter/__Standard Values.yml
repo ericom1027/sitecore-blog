@@ -1,0 +1,20 @@
+﻿---
+ID: "9d4614e9-8aaa-47a3-b8dd-02dcec081f8a"
+Parent: "82d2fed1-e9c5-489b-a3ab-0fd1b32490f1"
+Template: "82d2fed1-e9c5-489b-a3ab-0fd1b32490f1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Structure/ISplitter/__Standard Values
+SharedFields:
+- ID: "6055e1c7-b6f3-4514-b6be-406d957cb031"
+  Hint: SplitterSize
+  Value: 2
+- ID: "8c4f99ac-5c29-40ef-9a33-1a4c73dbfea9"
+  Hint: EnabledPlaceholders
+  Value: 1,2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8d281b39-6668-4250-9f96-51fd46e153d0"

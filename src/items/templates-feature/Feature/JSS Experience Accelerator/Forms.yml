@@ -1,0 +1,13 @@
+﻿---
+ID: "42265671-2093-496a-bbb1-4ad67fc89ac0"
+Parent: "3a7e1003-9223-4cfd-b8f5-1b1d62a0de37"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Forms
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0418c3c-ca77-47a5-955c-8fedb352b46d"

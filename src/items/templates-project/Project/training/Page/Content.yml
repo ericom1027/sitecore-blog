@@ -1,0 +1,13 @@
+﻿---
+ID: "a20e150d-f5a7-406d-b8d7-2efe6df35e7b"
+Parent: "7db75db6-308b-4c25-b7cc-eacce80f1f7f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/training/Page/Content
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f1454e8-68d7-4519-851b-94a38376cb19"

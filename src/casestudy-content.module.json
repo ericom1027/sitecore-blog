@@ -1,0 +1,21 @@
+{
+    "namespace": "case-study-content",
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "references": [
+        "case-study"
+    ],
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/case-study",
+                "allowedPushOperations": "CreateAndUpdate"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/Project/case-study",
+                "allowedPushOperations": "CreateAndUpdate"
+            }
+        ]
+    }
+}

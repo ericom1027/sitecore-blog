@@ -1,0 +1,13 @@
+﻿---
+ID: "c318c0c4-6228-4d20-9d0b-bd9c62447ec9"
+Parent: "22cb1238-575a-45b5-8420-6ea53da62e5f"
+Template: "22cb1238-575a-45b5-8420-6ea53da62e5f"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Content/Rendering Parameters/Field Editor/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2fa83ce-3967-4cd3-9398-5b40b9817177"

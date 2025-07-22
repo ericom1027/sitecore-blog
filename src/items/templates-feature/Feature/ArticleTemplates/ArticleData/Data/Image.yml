@@ -1,0 +1,20 @@
+﻿---
+ID: "3b674099-a89b-498a-b75e-5547a7c08c43"
+Parent: "7ba7bc10-dfc0-4bcd-9e86-b83e862c49f8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/ArticleTemplates/ArticleData/Data/Image
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67e8dad0-66f2-4b46-8ed2-5ba0dfdf8feb"

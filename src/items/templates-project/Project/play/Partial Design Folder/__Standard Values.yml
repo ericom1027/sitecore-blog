@@ -1,0 +1,22 @@
+﻿---
+ID: "ef891f5c-d69b-4af8-a527-f62e4ddce5e9"
+Parent: "e886d879-5ceb-4b55-a486-3bdd3c7e669b"
+Template: "e886d879-5ceb-4b55-a486-3bdd3c7e669b"
+Path: /sitecore/templates/Project/play/Partial Design Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {E886D879-5CEB-4B55-A486-3BDD3C7E669B}
+    {FD2059FD-6043-4DFE-8C04-E2437CE87634}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "528eef92-27bd-42df-8ab9-b9b48522813d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1ddd701-473d-4392-b349-fdc63267cdbd"

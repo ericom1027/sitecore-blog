@@ -1,0 +1,13 @@
+﻿---
+ID: "b26c1add-daa2-4e0d-9f4a-c48db83f6c77"
+Parent: "de811464-f6d9-40c1-b456-a7970d08fa58"
+Template: "de811464-f6d9-40c1-b456-a7970d08fa58"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Content/Rendering Parameters/PlainHtmlParametersTemplate/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf355c80-c497-445e-8151-22ed7249252a"

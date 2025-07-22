@@ -1,0 +1,13 @@
+﻿---
+ID: "7db70db1-e96a-4aa5-bbfe-7ef0bb725312"
+Parent: "881869ca-7f58-45ea-8b34-ad1bfd3551a8"
+Template: "881869ca-7f58-45ea-8b34-ad1bfd3551a8"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Promo/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0cd2af5-a7b5-4fdd-befd-057721bbac1b"

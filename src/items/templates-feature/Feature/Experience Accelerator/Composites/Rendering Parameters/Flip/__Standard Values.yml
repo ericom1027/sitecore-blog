@@ -1,0 +1,13 @@
+﻿---
+ID: "f2002bf6-1501-40e2-b5c8-35b6d16bb36d"
+Parent: "92fcea7b-e501-4907-8db0-1e9f0ef72dd1"
+Template: "92fcea7b-e501-4907-8db0-1e9f0ef72dd1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Rendering Parameters/Flip/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b00d39e8-8367-48b6-aa2a-fbe589ecafd6"

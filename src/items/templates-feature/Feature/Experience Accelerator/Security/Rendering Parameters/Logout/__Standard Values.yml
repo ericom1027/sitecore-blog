@@ -1,0 +1,13 @@
+﻿---
+ID: "f62e9a9a-9586-465a-bb0f-36fa0bcadba1"
+Parent: "8dca82ce-40c6-46b2-b602-665946965384"
+Template: "8dca82ce-40c6-46b2-b602-665946965384"
+Path: /sitecore/templates/Feature/Experience Accelerator/Security/Rendering Parameters/Logout/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "769162c4-0855-45b8-a695-939c0c71ce9d"

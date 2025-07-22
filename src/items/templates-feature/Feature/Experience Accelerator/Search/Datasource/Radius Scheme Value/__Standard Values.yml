@@ -1,0 +1,16 @@
+﻿---
+ID: "5a080a45-0c87-44a2-b21e-ae0f6824c322"
+Parent: "ea45c3ad-8e63-4e2a-bcc0-9e4c06f2aa12"
+Template: "ea45c3ad-8e63-4e2a-bcc0-9e4c06f2aa12"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Radius Scheme Value/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6f0451f9-bf0e-4420-ad61-82bb14a257f9"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90f20814-a58e-43ee-8b8c-7b21b48c1795"

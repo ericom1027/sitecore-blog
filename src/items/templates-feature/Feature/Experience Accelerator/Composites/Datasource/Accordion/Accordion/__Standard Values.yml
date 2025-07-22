@@ -1,0 +1,28 @@
+﻿---
+ID: "4170659d-580f-49ee-a694-974ee65a07f9"
+Parent: "705cc8b3-bde5-4cb3-bf1c-e455a2a36ef1"
+Template: "705cc8b3-bde5-4cb3-bf1c-e455a2a36ef1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Datasource/Accordion/Accordion/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/barrel.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{A6DDAC75-7D24-4BDB-B3F6-5F47FBB21379}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e318e6d-8534-4e78-a53f-b7fa79387aae"

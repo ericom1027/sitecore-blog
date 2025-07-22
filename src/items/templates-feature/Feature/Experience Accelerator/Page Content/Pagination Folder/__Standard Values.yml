@@ -1,0 +1,19 @@
+﻿---
+ID: "33c2dab5-2a9d-4d10-bfd0-6184c7fc116e"
+Parent: "89895ed9-f3bb-4296-a9b7-c87b7770cdd3"
+Template: "89895ed9-f3bb-4296-a9b7-c87b7770cdd3"
+Path: /sitecore/templates/Feature/Experience Accelerator/Page Content/Pagination Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {458A37BA-8222-4182-86E5-E086CFCDAD5C}
+    {89895ED9-F3BB-4296-A9B7-C87B7770CDD3}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8bd67c90-130e-46ac-8556-9e03c882e3fd"

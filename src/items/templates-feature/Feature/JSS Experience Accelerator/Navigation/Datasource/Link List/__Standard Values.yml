@@ -1,0 +1,20 @@
+﻿---
+ID: "e503ebb7-1ff1-4a7d-9cb3-97d465d04453"
+Parent: "60c9ac62-4227-443e-8980-92c97e483832"
+Template: "60c9ac62-4227-443e-8980-92c97e483832"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Navigation/Datasource/Link List/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{6F108E3C-5D57-42F8-A910-C22920269B0A}"
+- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
+  Hint: __Should Not Organize In Bucket
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "094d9cfb-39d1-4ea5-953c-77e82d4a73ee"

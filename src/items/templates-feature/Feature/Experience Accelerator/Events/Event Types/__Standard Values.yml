@@ -1,0 +1,17 @@
+﻿---
+ID: "ed069f09-d128-43d2-a040-ef1926a71f1e"
+Parent: "fd612519-1c44-48b7-a44a-d582e22c38dd"
+Template: "fd612519-1c44-48b7-a44a-d582e22c38dd"
+Path: /sitecore/templates/Feature/Experience Accelerator/Events/Event Types/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{6B8AABEF-D650-46E0-97D0-C0B04F7F016B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4698a505-caa1-4c95-ad6a-c3065bf90735"

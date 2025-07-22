@@ -1,0 +1,13 @@
+﻿---
+ID: "a1fc055b-9e6b-4d72-8193-30c9f08133d3"
+Parent: "92b790b2-4a6c-4fa6-8e81-4cc546d23489"
+Template: "92b790b2-4a6c-4fa6-8e81-4cc546d23489"
+Path: /sitecore/templates/Feature/Experience Accelerator/Taxonomy/Rendering Parameters/Tag Cloud/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c50ca09-555a-4e13-8eaf-263981ae6fa5"

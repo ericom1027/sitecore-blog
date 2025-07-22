@@ -1,0 +1,80 @@
+﻿---
+ID: "b365c5f4-d5bf-4f4f-96e5-0a0a85b34b89"
+Parent: "ad89c1f1-e991-48ef-8659-38ab13aa28f1"
+Template: "ad89c1f1-e991-48ef-8659-38ab13aa28f1"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Date Filter/__Standard Values
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3dc2d905-c97a-4c68-a24f-67a8181441f3"
+      Hint: FromDateText
+      Value: Fra
+    - ID: "7b6f8374-8faa-4cc0-befe-b6de5d864fc1"
+      Hint: ToDateText
+      Value: Til
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3dc2d905-c97a-4c68-a24f-67a8181441f3"
+      Hint: FromDateText
+      Value: Von
+    - ID: "7b6f8374-8faa-4cc0-befe-b6de5d864fc1"
+      Hint: ToDateText
+      Value: An
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3dc2d905-c97a-4c68-a24f-67a8181441f3"
+      Hint: FromDateText
+      Value: From
+    - ID: "7b6f8374-8faa-4cc0-befe-b6de5d864fc1"
+      Hint: ToDateText
+      Value: To
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "737deacc-5244-4c3f-8f86-216cfbf6377b"
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3dc2d905-c97a-4c68-a24f-67a8181441f3"
+      Hint: FromDateText
+      Value: From
+    - ID: "7b6f8374-8faa-4cc0-befe-b6de5d864fc1"
+      Hint: ToDateText
+      Value: To
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "3dc2d905-c97a-4c68-a24f-67a8181441f3"
+      Hint: FromDateText
+      Value: 从
+    - ID: "7b6f8374-8faa-4cc0-befe-b6de5d864fc1"
+      Hint: ToDateText
+      Value: 至
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"

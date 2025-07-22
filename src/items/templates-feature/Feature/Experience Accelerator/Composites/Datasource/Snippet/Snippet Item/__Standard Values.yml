@@ -1,0 +1,25 @@
+﻿---
+ID: "9f77c135-0c78-4eb8-bd74-0b98ef248a68"
+Parent: "2b35e65c-137a-4641-b683-d223ca7cfac0"
+Template: "2b35e65c-137a-4641-b683-d223ca7cfac0"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Datasource/Snippet/Snippet Item/__Standard Values
+SharedFields:
+- ID: "c80e6f3c-5bcd-426b-b1eb-6d10672e985d"
+  Hint: Data Source Selection Behavior
+  Value: DoNotCopy
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{411E4948-E7F2-4D86-BEAD-451F79D83BCF}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80cda9d0-f227-4914-8fd1-f8382ebf804c"

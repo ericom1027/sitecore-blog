@@ -1,0 +1,22 @@
+﻿---
+ID: "84c51761-090a-43b9-b04d-2d6fe8c43b94"
+Parent: "874c0df3-ff75-4ae0-baf6-2725c7e0419f"
+Template: "874c0df3-ff75-4ae0-baf6-2725c7e0419f"
+Path: /sitecore/templates/Project/training/Page Design Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {874C0DF3-FF75-4AE0-BAF6-2725C7E0419F}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8a9458c7-f12b-48df-8de2-e88ab168eaf3"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "239b50a4-5f3f-45cd-ab49-0c6e6d0a344e"

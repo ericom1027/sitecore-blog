@@ -1,0 +1,17 @@
+﻿---
+ID: "bc041095-6b44-4280-85ba-1e978cef2ed0"
+Parent: "a82e8931-0575-4175-917d-e904ef7e6dbe"
+Template: "a82e8931-0575-4175-917d-e904ef7e6dbe"
+Path: /sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Rendering Parameters/Title/__Standard Values
+SharedFields:
+- ID: "0793dcff-0ee7-48ad-b9d4-ef1dd24eb59b"
+  Hint: Data Source
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "584afc6f-e763-4833-94a5-6a41d80a3351"

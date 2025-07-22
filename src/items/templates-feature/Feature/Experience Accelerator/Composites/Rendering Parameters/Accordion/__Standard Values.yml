@@ -1,0 +1,26 @@
+﻿---
+ID: "34a85268-1640-4882-93f1-087e9ee570c3"
+Parent: "9406667a-26a9-491b-a21e-c207d73ce1ca"
+Template: "9406667a-26a9-491b-a21e-c207d73ce1ca"
+Path: /sitecore/templates/Feature/Experience Accelerator/Composites/Rendering Parameters/Accordion/__Standard Values
+SharedFields:
+- ID: "595b7102-4533-4d38-8742-aa09037f7cf5"
+  Hint: CanOpenMultiple
+  Value: 1
+- ID: "68f5cd94-4071-4ef2-b0fa-9802ff36e628"
+  Hint: EasingFunction
+  Value: Swing
+- ID: "6d981f31-e577-41dd-a8ac-c51f56d3ae3b"
+  Hint: CanToggle
+  Value: 1
+- ID: "9a178484-d3dd-4644-abe5-6285aca68634"
+  Hint: Speed
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0bdd28f-59b6-41d9-a55b-5e38d66814a2"

@@ -1,0 +1,19 @@
+﻿---
+ID: "eb1d8159-75ce-450d-8261-c4ce4439223c"
+Parent: "f1c4144c-1b74-4916-a918-41cd68f3980f"
+Template: "f1c4144c-1b74-4916-a918-41cd68f3980f"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Roots/Renderings/Search Results Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A06F7130-041D-46BB-8C29-95A2DC00C26A}
+    {F1C4144C-1B74-4916-A918-41CD68F3980F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e53e59a-5e63-44ea-ad94-6f20138f4816"

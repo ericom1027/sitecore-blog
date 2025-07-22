@@ -1,0 +1,13 @@
+﻿---
+ID: "93caf918-4a8f-42f9-bebb-3d8a5a8fd1d9"
+Parent: "a0a85463-c88d-454d-8ccd-fda3ca5b409b"
+Template: "a0a85463-c88d-454d-8ccd-fda3ca5b409b"
+Path: /sitecore/templates/Feature/Experience Accelerator/Media/Rendering Parameters/Video Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0be34d34-0234-4afc-a159-13f9c77e14aa"

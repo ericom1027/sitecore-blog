@@ -1,0 +1,17 @@
+﻿---
+ID: "771ebae4-6b79-4d88-8d39-f7129d68e8d9"
+Parent: "25f18683-2f03-4776-ada3-6d2a76dbdf2d"
+Template: "25f18683-2f03-4776-ada3-6d2a76dbdf2d"
+Path: /sitecore/templates/Feature/Experience Accelerator/Generic Meta Rendering/HTML Snippet/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/html_tag2.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52db7a8a-2144-4b7c-b94b-3da3cf3aa41b"

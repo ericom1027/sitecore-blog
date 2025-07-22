@@ -1,0 +1,69 @@
+﻿---
+ID: "3cafbb16-e919-4003-86b3-9815a56e1921"
+Parent: "41cbdc01-c2df-4768-8add-87fb6b5a434b"
+Template: "41cbdc01-c2df-4768-8add-87fb6b5a434b"
+Path: /sitecore/templates/Feature/Experience Accelerator/Search/Datasource/Page Size/Pagging/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{B682562E-0AF6-4B3E-9E3B-45273BBE152D}"
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6d6e0783-1423-4834-ab27-74312e8b6754"
+      Hint: Title
+      Value: Eksempeltitel
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6d6e0783-1423-4834-ab27-74312e8b6754"
+      Hint: Title
+      Value: Beispiel Titel
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6d6e0783-1423-4834-ab27-74312e8b6754"
+      Hint: Title
+      Value: Example title
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee28d353-4934-4db5-ae7e-10b67ea23f94"
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6d6e0783-1423-4834-ab27-74312e8b6754"
+      Hint: Title
+      Value: 見本 タイトル
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c3a43a37-3787-42f7-9b5f-a40b9e62d0f4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "6d6e0783-1423-4834-ab27-74312e8b6754"
+      Hint: Title
+      Value: 示例标题
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "183e7dd8-957f-4f52-b88d-1e192720a55d"

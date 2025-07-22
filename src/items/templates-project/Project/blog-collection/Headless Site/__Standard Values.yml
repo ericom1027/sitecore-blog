@@ -1,0 +1,13 @@
+﻿---
+ID: "234563ea-9140-4994-9774-65db25a53520"
+Parent: "69a0dd0e-9e71-4880-bc1e-92893c005744"
+Template: "69a0dd0e-9e71-4880-bc1e-92893c005744"
+Path: "/sitecore/templates/Project/blog-collection/Headless Site/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b114ebb7-2cb2-49de-be8b-364bee6bafad"
