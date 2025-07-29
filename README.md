@@ -1,18 +1,13 @@
 # XM Cloud Starter Kit (Next JS)
 
 ## DO THIS FIRST!!
-1. Update the `.env` file in the project root and set the value of `COMPOSE_PROJECT_NAME` to a unique name for your environment. For example:
+1. Update the `.env` file in the project root and set the value of `COMPOSE_PROJECT_NAME` to a unique name for your environment. Make sure the project name does not contain spaces. For example:
 
 ```
-COMPOSE_PROJECT_NAME=my-xmcloud-project
+COMPOSE_PROJECT_NAME=my_xmcloud_project
 ```
 
-
-
-
-
-
-
+2. In Sitecore Content Editor https://xmcloudcm.localhost, create a site named based on COMPOSE_PROJECT_NAME for consistency
 
 ## QUICK START
 
