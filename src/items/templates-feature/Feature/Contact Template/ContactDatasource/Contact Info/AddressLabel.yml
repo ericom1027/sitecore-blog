@@ -1,0 +1,23 @@
+﻿---
+ID: "46f20f9b-6d9a-4363-a276-af9d29a0255d"
+Parent: "866e02ad-c259-4771-b264-eb87de07013e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Contact Template/ContactDatasource/Contact Info/AddressLabel
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6921d4d0-d381-4618-8b06-03728134422e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "661358a6-1456-4dbc-85a6-15f2cf129023"

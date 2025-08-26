@@ -1,0 +1,25 @@
+﻿---
+ID: "1bf700ae-08ea-430b-bea5-22bf1ba08b84"
+Parent: "32c02756-822f-43e0-89dd-e13b2a2b3113"
+Template: "32c02756-822f-43e0-89dd-e13b2a2b3113"
+Path: "/sitecore/templates/Project/emd-site/Page/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {32C02756-822F-43E0-89DD-E13B2A2B3113}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a357e9e9-fd7c-4e87-92b7-cf754827a5bd"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8685c651-a4f9-4148-9ac7-45855c2a0f1e"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f5c9d021-6397-420e-989b-3d82c3c2008b"

@@ -1,0 +1,23 @@
+﻿---
+ID: "127edbb8-acf4-4933-82cf-8b01f9bdfd27"
+Parent: "80a0e5f9-4ed8-4b9a-9c05-90769b33cf29"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Card Template/Card Template/Data/caption
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Multi-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9df275e0-bdc7-448b-a0d2-655a89fbea7e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bce0eed8-f5de-4345-901c-9a507731e1ff"

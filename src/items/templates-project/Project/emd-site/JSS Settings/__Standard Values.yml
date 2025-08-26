@@ -1,0 +1,13 @@
+﻿---
+ID: "c4b8daa6-296f-45f0-a6a0-fdc47325fb80"
+Parent: "5c1c6e9a-9296-4a1f-ae79-580f485b3344"
+Template: "5c1c6e9a-9296-4a1f-ae79-580f485b3344"
+Path: "/sitecore/templates/Project/emd-site/JSS Settings/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbcf256c-055c-48fb-81dd-e062bd92ff57"

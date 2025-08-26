@@ -1,0 +1,26 @@
+﻿---
+ID: "d62ff851-3328-4626-a6c7-f832ca1aa7b1"
+Parent: "e6a06d07-c66f-4a6d-a984-1a4c08c0de02"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/DogBlog Template/DogBlog Template/Data/IntroText
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: 
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a5cc3765-514e-49e4-8257-439c9d6e4bd5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ac066af-92e8-4a40-b1e8-3acace9c0f0f"

@@ -1,0 +1,13 @@
+﻿---
+ID: "72477aa0-d12d-4312-a7e2-7c003d6b5830"
+Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/Footer Component
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c7179c2-ea8f-4f41-a8b7-cd1717773e2a"

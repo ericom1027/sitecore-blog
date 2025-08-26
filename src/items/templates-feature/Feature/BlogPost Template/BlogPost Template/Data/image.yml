@@ -1,0 +1,23 @@
+﻿---
+ID: "33cef31d-5310-4c1a-a2fd-afc766608321"
+Parent: "0453023e-7670-4d5b-a8e6-29de2788159c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/BlogPost Template/BlogPost Template/Data/image
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "940d5e22-a9f3-4730-ac08-fcc4fac65bd6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ad9ec8a-dddb-4e52-8ec4-2fffb60b23d7"

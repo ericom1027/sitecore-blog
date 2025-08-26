@@ -1,0 +1,26 @@
+﻿---
+ID: "1b9f6326-ace2-4f41-a524-2f8330d56710"
+Parent: "efdcfea4-288f-44a2-a55b-1c0b9a4831fa"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/BlogPost Component/BlogPost
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: BlogPost
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/edit.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/BlogPost Template/BlogPost Template
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0adbcddb-ab6a-46c2-b68e-c29012876698"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "759604e2-bdf8-4766-9cb5-c2286546ef02"

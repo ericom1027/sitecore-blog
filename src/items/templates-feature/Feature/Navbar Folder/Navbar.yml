@@ -1,0 +1,20 @@
+﻿---
+ID: "46e0aaef-8f15-40d6-9f0f-08286dfe5a97"
+Parent: "dd092d33-b400-4ca9-88a2-a67843729963"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Navbar Folder/Navbar
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1d8693e1-4646-403c-ac2a-df0807308ad8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3d797bc-6bdd-453e-a0af-b66541a8e0fe"

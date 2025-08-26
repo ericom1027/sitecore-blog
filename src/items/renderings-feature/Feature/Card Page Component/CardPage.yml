@@ -1,0 +1,23 @@
+﻿---
+ID: "4701bf33-e873-43eb-a467-96648fb8c3f0"
+Parent: "87d50b39-72fb-400f-8770-c41fa6a9b186"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Card Page Component/CardPage
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: CardPage
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/CardPage Template/CardPage Template
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "db3e2391-4761-4d8e-8033-ace2159e82b8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42ebd1d3-c500-44c6-9f34-ef1d8514bf1b"

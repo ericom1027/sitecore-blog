@@ -1,0 +1,13 @@
+﻿---
+ID: "ab49f5d4-8b37-4c1e-8bfa-599e1f51d8a9"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/Contact Template
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a8d4c46-f22e-456b-b4cf-045817444c90"

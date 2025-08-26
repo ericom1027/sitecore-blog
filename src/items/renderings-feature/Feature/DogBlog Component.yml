@@ -1,0 +1,13 @@
+﻿---
+ID: "e2db03ae-d1a8-43dd-8e08-40e1a2959369"
+Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/DogBlog Component
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ee807c8-dd51-478a-a52f-40d707f729d1"

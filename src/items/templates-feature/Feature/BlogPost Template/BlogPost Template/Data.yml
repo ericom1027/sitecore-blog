@@ -1,0 +1,13 @@
+﻿---
+ID: "0453023e-7670-4d5b-a8e6-29de2788159c"
+Parent: "d78bb207-18e4-4dea-a31a-07b431d1e129"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/BlogPost Template/BlogPost Template/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b2af055-de5d-49cf-b4b7-db9dbf93b6ec"

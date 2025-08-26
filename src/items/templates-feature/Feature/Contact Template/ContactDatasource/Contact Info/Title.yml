@@ -1,0 +1,23 @@
+﻿---
+ID: "0623e7c0-4c1f-45bc-8cc1-47d9aafc5712"
+Parent: "866e02ad-c259-4771-b264-eb87de07013e"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Contact Template/ContactDatasource/Contact Info/Title
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "35e9697b-1879-4623-9dfe-962c0e200695"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ede18f1-8342-4a88-8389-e32a02ec5c6f"

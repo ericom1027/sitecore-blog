@@ -1,0 +1,13 @@
+﻿---
+ID: "801ae501-46bc-4063-8bac-a42321a7aacf"
+Parent: "f25e5b6f-4bc8-4326-9cbe-90ab96877d18"
+Template: "f25e5b6f-4bc8-4326-9cbe-90ab96877d18"
+Path: "/sitecore/templates/Project/emd-site/Headless Tenant/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d13d1bba-5347-4ada-875b-419e5a4c0f90"

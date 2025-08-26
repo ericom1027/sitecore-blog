@@ -1,0 +1,36 @@
+﻿---
+ID: "0817ac49-b6c7-463f-9b01-91c5529d90a0"
+Parent: "005356c4-f2f1-4bca-b109-c29b52914c17"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Cards Component/Cards
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Cards
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{6FD72465-7108-47AA-9257-91AF94C5813D}"
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/Card Template/Cards
+- ID: "705a4365-065a-4104-b755-7363f455ebc6"
+  Hint: Customize Page
+  Value: 
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "96a3b8e9-69d8-411d-ad14-76fdade7ba9a"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "e65a8d4e-a255-478a-9e76-58b80752eca3"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd63af63-0a70-471f-8a12-14a46c21db10"

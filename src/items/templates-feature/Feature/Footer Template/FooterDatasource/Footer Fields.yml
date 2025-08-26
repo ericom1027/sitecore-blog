@@ -1,0 +1,13 @@
+﻿---
+ID: "a82069f0-ee10-4f40-ac5e-cacbf982ee5f"
+Parent: "9fd0e779-96e0-486d-80c4-0f4599fe4cc4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Footer Template/FooterDatasource/Footer Fields
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a88a453-8beb-4d95-a55e-25e1e8f0bd4b"

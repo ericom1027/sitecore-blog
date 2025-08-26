@@ -1,0 +1,13 @@
+﻿---
+ID: "d7430eb1-a7c5-4757-a6c7-8aff830e779a"
+Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Feature/Banner Component
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bed7c778-2330-4658-a36c-79cfe0eff40f"

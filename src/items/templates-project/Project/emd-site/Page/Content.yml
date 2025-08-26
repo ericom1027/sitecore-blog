@@ -1,0 +1,13 @@
+﻿---
+ID: "92cfa34d-b70d-4d8b-afdb-66c096572aa0"
+Parent: "32c02756-822f-43e0-89dd-e13b2a2b3113"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: "/sitecore/templates/Project/emd-site/Page/Content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "faa2cdbf-95a7-4ca8-bae7-f81613bea3f7"

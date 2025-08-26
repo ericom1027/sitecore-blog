@@ -1,0 +1,22 @@
+﻿---
+ID: "d5d9f1bb-cd5b-41e2-bd23-738dd9c67446"
+Parent: "09545869-09ff-4f27-94cb-39254ff628d4"
+Template: "09545869-09ff-4f27-94cb-39254ff628d4"
+Path: "/sitecore/templates/Project/emd-site/Page Design Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {09545869-09FF-4F27-94CB-39254FF628D4}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0c5692c2-8c4b-461e-82d0-4c89d0e00845"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffd01039-8231-493a-9000-074dfb7233b5"

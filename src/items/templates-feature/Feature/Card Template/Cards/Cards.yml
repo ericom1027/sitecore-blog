@@ -1,0 +1,13 @@
+﻿---
+ID: "ad05ef2e-f359-406b-b63d-fa6b450be4a6"
+Parent: "6fd72465-7108-47aa-9257-91af94c5813d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Card Template/Cards/Cards
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "defa1630-902c-4e69-98af-4b09bf4866bf"

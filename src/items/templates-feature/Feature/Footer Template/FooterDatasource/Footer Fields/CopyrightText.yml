@@ -1,0 +1,23 @@
+﻿---
+ID: "107578d0-0900-4745-9a6f-1ae57a8a2865"
+Parent: "a82069f0-ee10-4f40-ac5e-cacbf982ee5f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Footer Template/FooterDatasource/Footer Fields/CopyrightText
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f8977a4c-1922-4060-877c-52b6f93efa70"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07600d1e-d696-468d-99be-56d6f22cd6fb"

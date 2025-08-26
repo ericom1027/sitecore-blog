@@ -1,0 +1,13 @@
+﻿---
+ID: "dbc54253-5eca-4f12-8288-8521ef6d364d"
+Parent: "46e0aaef-8f15-40d6-9f0f-08286dfe5a97"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/Navbar Folder/Navbar/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f478275-2a43-43a3-9750-3e527d26f7c1"

@@ -1,0 +1,20 @@
+﻿---
+ID: "9fd0e779-96e0-486d-80c4-0f4599fe4cc4"
+Parent: "ce3440c0-9566-46a9-9502-f1b14140d762"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Footer Template/FooterDatasource
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a23065ee-b232-4acc-8d8f-38381930dc75"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46037a34-da3c-4d5d-8b9d-01516058dd15"

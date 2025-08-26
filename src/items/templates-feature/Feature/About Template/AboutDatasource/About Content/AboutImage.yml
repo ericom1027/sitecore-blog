@@ -1,0 +1,23 @@
+﻿---
+ID: "1d4b89c8-c4be-4bb2-90c2-5f7efe90703c"
+Parent: "c532ace4-fda9-4725-a303-037d2185bed8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/About Template/AboutDatasource/About Content/AboutImage
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b2e6eae8-7ac1-4978-a19c-a485fb123af6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e391729-54a4-4306-bae7-12d1760b0744"

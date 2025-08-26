@@ -1,0 +1,22 @@
+﻿---
+ID: "66d6a707-35e3-494d-b782-cc323d237a2b"
+Parent: "f02b644b-6736-46db-bdc4-8747b105c231"
+Template: "f02b644b-6736-46db-bdc4-8747b105c231"
+Path: "/sitecore/templates/Project/emd-site/Partial Designs/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {41E4FB58-CA4D-40FB-BE16-A1659529D1B7}
+    {FD2059FD-6043-4DFE-8C04-E2437CE87634}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4a4b199e-1452-405c-876a-a5450e8c8d49"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b8675be-809c-4182-9a94-435b17c556a9"
