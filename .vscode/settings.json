@@ -1,4 +1,4 @@
-﻿{
+{
   "files.associations": {
     "*.sicpackage": "json"
   },
@@ -16,4 +16,6 @@
       "url": "./.sitecore/schemas/ModuleFile.schema.json"
     }
   ]
+
+  
 }
