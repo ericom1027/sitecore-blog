@@ -1,4 +1,4 @@
-import { Text, RichText, Image, Field, ImageField} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, RichText, Image, Field, ImageField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 type DogBlogPostProps = {
   fields: {
