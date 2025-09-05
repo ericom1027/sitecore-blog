@@ -1,9 +1,9 @@
-import { Text, RichText, Image, Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, RichText, Image, Field, ImageField} from '@sitecore-jss/sitecore-jss-nextjs';
 
 type DogBlogPostProps = {
   fields: {
     breedName: Field<string>;
-    image: Field<any>;
+    image: Field<ImageField>;
     description: Field<string>;
     fullDescription: Field<string>;
   };
@@ -18,7 +18,7 @@ export default function DogBlogPost({ fields }: DogBlogPostProps) {
 
       <div className="flex justify-center items-center my-6">
         <Image
-          field={fields.image}
+          Field={fields.image}
           className="w-full max-w-md h-auto object-cover rounded-xl shadow-lg"
         />
       </div>
