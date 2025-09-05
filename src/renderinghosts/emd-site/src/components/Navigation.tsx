@@ -97,7 +97,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
                 <Link
                   field={{
                     value: {
-                      href: '/', 
+                      href: '/',
                       title: 'Home',
                     },
                   }}
@@ -109,7 +109,6 @@ export const Default = (props: NavigationProps): JSX.Element => {
                 </Link>
               </li>
 
-            
               {list}
             </ul>
           </nav>
